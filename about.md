@@ -4,6 +4,8 @@ title: About me
 permalink: /about/
 ---
 
+![Headshot](/assets/headshot.png){:class="headshot"}
+
 I am Marius, a Software Developer from Europe. I have lived in Braila, Madrid and Dublin.
 
 I would describe myself as a highly motivated, independent and curious person. My passion is writing code and I like drawing/painting (digital and oil on canvas), photography, travelling, reading and music. I would like to travel around the world some day.
