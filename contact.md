@@ -4,12 +4,38 @@ title: Contact
 permalink: /contact/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+How you can get in touch with me:
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+<div class="contact">
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+  <a href="mailto:me@mariusavram.com">
+    <i class="fa fa-envelope fa-5x"></i>
+    <span class="message">You can email me at: <em>me [at] mariusavram [dot] com</em>.</span>
+  </a>
+
+  <a href="https://twitter.com/@MariusAvram91">
+    <i class="fa fa-twitter fa-5x"></i>
+    <span class="message">I post about programming, tech, art and news.</span>
+  </a>
+
+  <a href="http://ie.linkedin.com/in/mariusavram91">
+    <i class="fa fa-linkedin fa-5x"></i>
+    <span class="message">Professional experience and CV.</span>
+  </a>
+
+  <a href="https://github.com/mariusavram91">
+    <i class="fa fa-github fa-5x"></i>
+    <span class="message">Projects and Open Source contributions.</span>
+  </a>
+
+  <a href="https://instagram.com/mariusavram91">
+    <i class="fa fa-instagram fa-5x"></i>
+    <span class="message">Don't even know why? Narcissism, I guess.</span>
+  </a>
+
+  <a href="https://plus.google.com/+MariusAvram91">
+    <i class="fa fa-google-plus fa-5x"></i>
+    <span class="message">Er... just kidding, nobody uses Google+.</span>
+  </a>
+
+</div>

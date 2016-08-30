@@ -247,3 +247,30 @@
         }
     }
 }
+
+
+/* Contact page */
+
+.contact .fa {
+    color: #68a4c4;
+    vertical-align: middle;
+}
+
+.contact a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: none;
+}
+
+.contact a .fa {
+    width: 20%;
+    margin-top: 3%;
+}
+
+.contact a .message {
+    text-align: right;
+}
