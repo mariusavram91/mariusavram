@@ -107,6 +107,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: #68a4c4;
 }
 
 .footer-heading {
@@ -122,9 +123,18 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: #ffffff;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
+}
+
+.footer-col-wrapper a {
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.footer-col-wrapper a:hover {
+    text-decoration: none;
 }
 
 .footer-col {
@@ -167,6 +177,18 @@
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
+}
+
+ul.social-network {
+    list-style:none;
+    margin:0;
+    float:right;
+}
+
+ul.social-network li {
+    color: #ffffff;
+    display:inline;
+    margin: 0 5px;
 }
 
 
