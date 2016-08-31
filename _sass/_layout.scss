@@ -40,13 +40,19 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: #777;
+        font-weight: 600;
+        font-size: 16px;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
         }
+    }
+
+    .page-link:hover {
+        text-decoration: none;
     }
 
     @include media-query($on-palm) {
@@ -205,6 +211,9 @@ ul.social-network li {
 }
 
 .post-list {
+    font-size: 26px;
+    letter-spacing: -0.028em;
+    line-height: 1.04;
     margin-left: 0;
     list-style: none;
 
@@ -214,8 +223,10 @@ ul.social-network li {
 }
 
 .post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+    font-size: 12px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #777;
 }
 
 a.post-link {
@@ -228,13 +239,21 @@ a.post-link {
 a.post-preview {
     display: block;
     padding: 8px 0 8px 0;
-    font-size: 16px;
+    font-size: 24px;
+    line-height: 1.22;
+    letter-spacing: -0.022em;
+    font-weight: 300;
     color: #777;
 
     > img {
         margin: 2px 7px 2px 0;
         float: left;
     }
+}
+
+.post-preview p {
+    width: 80%;
+    float: right;
 }
 
 .post-preview:hover, .post-link:hover {
@@ -252,11 +271,12 @@ a.post-preview {
 
 .post-title {
     font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.028em;
+    line-height: 1.04;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 38px;
     }
 }
 
