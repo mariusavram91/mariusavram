@@ -218,9 +218,25 @@ ul.social-network li {
     color: $grey-color;
 }
 
-.post-link {
+a.post-link {
     display: block;
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #000;
+}
+
+.post-preview {
+    display: block;
+    
+    > p {
+        padding: 8px 0 8px 0;
+        font-size: 16px;
+        color: #777;
+    }
+}
+
+.post-preview:hover, .post-link:hover {
+    text-decoration: none;
 }
 
 
