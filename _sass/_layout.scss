@@ -225,13 +225,15 @@ a.post-link {
     color: #000;
 }
 
-.post-preview {
+a.post-preview {
     display: block;
-    
-    > p {
-        padding: 8px 0 8px 0;
-        font-size: 16px;
-        color: #777;
+    padding: 8px 0 8px 0;
+    font-size: 16px;
+    color: #777;
+
+    > img {
+        margin: 2px 7px 2px 0;
+        float: left;
     }
 }
 

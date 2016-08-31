@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome!"
 date:   2016-08-29 08:29:17 -0700
 cover: /assets/posts/welcome.jpg
-description: A warm welcome to my blog.
+description: I am Marius, a Software Developer, you are welcomed to my blog.
 categories: welcome update introduction
 ---
 
