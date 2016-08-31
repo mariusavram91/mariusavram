@@ -14,8 +14,10 @@ layout: default
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         </h2>
         <a class="post-preview" href="{{ post.url }}" >
-          <img width="180px" src="{{ post.cover }}" />
-          {{ post.description }}
+          <div>
+            <img width="180px" src="{{ post.cover }}" />
+            {{ post.description }}
+          </div>
         </a>
       </li>
     {% endfor %}
