@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Welcome!"
+date:   2016-08-29 08:29:17 -0700
+cover: /assets/posts/welcome.jpg
+description: A warm welcome to my blog.
+categories: welcome update introduction
+---
+
+Hi! I am Marius, a Software Developer.
+
+This is the beginning of a blog which will hopefully help you as much as it will help me. It will contain walkthroughs, news about software and projects I will be working or I am excited about, stories, commentaries or thoughts.
+
+I am doing this as a way improve my writing skills, as well as my English and have a sort of reports on new acquired knowledge. Please, feel free to make constructive critics on anything and let me know what I should improve, rewrite of fix.
+
+Thank you for your patience, with my English and writing skills, if you didn't give up with this post. You are welcomed back for my next blog posts.
+
+You can always share my posts links and [subscribe to my RSS feed](/feed.xml), if you wish.
+
+Thanks to Pixabay and Ramdlon for the post's [cover image](https://pixabay.com/photo-1347886).
