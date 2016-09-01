@@ -48,11 +48,11 @@ If you chose to install Ubuntu from the ISO, you will have to create a virtual m
 
 The name in my case will be trusty64, type Linux and version Ubuntu 64.
 
-![Create virtual machine](http://www.mariusavram.com/static/media/uploads/blog/creating_vm_for_vagrant_box.jpg)
+![Create virtual machine](/assets/posts/creating_vm_for_vagrant_box.jpg)
 
 We can leave the memory to the default value: 512MB.
 
-![RAM virtual machine](http://www.mariusavram.com/static/media/uploads/blog/memory_vm_for_vagrant_box.jpg)
+![RAM virtual machine](/assets/posts/memory_vm_for_vagrant_box.jpg)
 
 Create a disk and choose Dynamically allocated option with a minimum of 20GB.
 
