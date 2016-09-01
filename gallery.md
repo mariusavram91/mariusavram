@@ -18,6 +18,12 @@ Another activity I enjoy is Photography, still learning all the DSLR functionali
 
 These are some of my favourite works, if you want to see more you can visit my Flickr portfolio at [flickr/mariusavram](https://www.flickr.com/photos/mariusavram){:target="_blank"}.
 
+_This gallery's content by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Marius Avram</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>._
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+	<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+</a>
+
 {% for dir in page.dirs %}
 <div class="gallery">
   <h2 class="type">{{ dir }}</h2>
