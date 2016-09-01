@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-I like building things people would use, creating something from “nothing” and solving puzzles and problems. Who wouldn’t want to be a detective looking for impossible to find bugs and always learning something? It’s rewarding and challenging and that’s why I love it!
+I like building things people can use, creating something from “nothing” and solving puzzles and problems. Who wouldn’t want to be a detective looking for impossible to find bugs and always learning something new? It’s rewarding and challenging and that’s why I love it!
 
 A few projects I've worked on:
 
@@ -16,7 +16,7 @@ A few projects I've worked on:
 
 ![pythonjobs.ie](/assets/projects/pythonjobs.jpg){:class="project"}
 
-A jobs board for Python, the programmming language, exclusive to Ireland. It is written using Django as Framework and it is deployed to Heroku through Travis CI.
+A jobs board for Python, the programmming language, exclusive to Ireland. It was built using Django and it is deployed to Heroku through Travis CI.
 
 * I have collaborated in a team of three, another developer and a designer, writing backend code, unit testing and documentation.
 
@@ -28,11 +28,13 @@ During the Pycon Ireland 2015 Sprints we had a few external pull requests.
 
 ![classis](/assets/projects/classis.jpg){:class="project"}
 
-A School Management Information System a multi tenant web application, written in a custom PHP framework. Running on Apache, MySQL for database and Git for version control.
+A School Management Information System, a multi tenant web application, written in a custom PHP framework. Running on Apache, MySQL for database and Git for version control.
 
-It is a complete student tracking, reporting, and information management. A different instance is deployed for each school.
+It is a complete student tracking, reporting and information management. A different instance is deployed for each school.
 
-* I have delivered multiple features and improvements mainly for backend, frontend and infrastructure. I've added Capistrano to automate the deployments to each of or all instances. Implemented various API integrations for file sharing, such as Dropbox and Google Drive, and information synchronisation with Active Directory and MSSQL databases, as well as the integration with Schoolbag.
+* I have delivered multiple features and improvements for backend, frontend and infrastructure. I've added Capistrano to automate the deployments to each of or all instances. Implemented various API integrations for file sharing, such as Dropbox and Google Drive, and information synchronisation with Active Directory and MSSQL databases, as well as the integration with Schoolbag.
+
+* Created XML and XSLT templates for school reports.
 
 * I migrated our instances to Azure and managed them. I added monitorisation and automatisation.
 
@@ -40,7 +42,9 @@ It is a complete student tracking, reporting, and information management. A diff
 
 ![classisansible](/assets/projects/classis_ansible.jpg){:class="project"}
 
-Ansible recipe written for automatisation of Classis. Implemented it with Vagrant to improve the effieciency of the development process.
+Ansible recipe written for automatisation of Classis.
+
+* I implemented it with Vagrant to improve the efficiency of the development process.
 
 * I delivered the Ansible recipe for Classis to deploy complete instances of Classis in minutes. Includes server configuration and a demo Classis application.
 
@@ -50,19 +54,19 @@ Ansible recipe written for automatisation of Classis. Implemented it with Vagran
 
 A REST API written using Flask Python framework and its web client written in Javascript/jQuery.
 
-* I built it to act as a router to many different databases to be able to fetch data from the different Classis instances. Fabric is used for its deployment. It was a challenge for me at the time.
+* I built it to act as a router to many different databases, to be able to fetch data from the different Classis instances. Fabric is used for its deployment. It proved to be challenge for me at the time.
 
 #### **Classic** 2014-2015
 
-A School Parent Portal written in PHP using the framework ELGG.
+A School Parent Portal written in PHP using the ELGG framework.
 
 #### **[Schoolbag](https://schoolbag.ie)** 2014 - 2016
 
 ![schoolbag](/assets/projects/schoolbag.jpg){:class="project"}
 
-An e-diary application for teachers, students and parents written using Phalcon PHP.
+An e-diary application for teachers, students and parents built using Phalcon PHP.
 
-* I delivered the Office 365 integration, synchronisation with the directory and authentication adding Schoolbag to Azure Marketplace.
+* I delivered the Office 365 integration, synchronisation with the directory and authentication, adding Schoolbag to Azure Marketplace.
 
 * I have implemented various other API integrations (REST and SOAP) from data providers such as: Classis, Advanced Learning, VSWare, LDAP and Active Directory. 
 
@@ -80,9 +84,9 @@ A small API to convert a URL to a PDF file and download it.
 
 #### **School Internships Management System 2012**
 
-A management system for the students' internships. It was built in PHP with IIS as a server and MySQL for the database.
+A management system for the students' internships. It was built in PHP with IIS web server and MySQL for the database.
 
-* I designed the frontend, the architecture and wrote the backend. I was part of a four members team.
+* I designed the frontend, the architecture and wrote the backend code. I was part of a four members team.
 
 ## Websites
 
@@ -98,10 +102,10 @@ My personal website, mariusavram.com. Done in Jekyll and deployed to Github Page
 
 Mom's recipes website, elmundoenmicocina.es, for desserts around the world. Done in Jekyll and deployed to Github Pages.
 
-* I have also photographied and ate most of the desserts.
+* I have also photographed and ate most of the desserts.
 
 Follow her [instagram](https://instagram.com/elmundoenmicocina) to see the latest recipes.
 
 #### **[Magneto Producciones](http://www.magnetoproducciones.com)**  2012
 
-Corporate website for Magneto Producciones. I participated in a team by writing frontend code.
+Corporate website for Magneto Producciones. I participated in a team writing frontend code.
