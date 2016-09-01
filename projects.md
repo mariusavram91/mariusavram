@@ -24,7 +24,7 @@ During the Pycon Ireland 2015 Sprints we had a few external pull requests.
 
 ### Learning Data
 
-#### **Classis 2013** - 2016 [<i class="fa fa-github"></i>](https://github.com/LearningData/class)
+#### **Classis** 2013 - 2016 [<i class="fa fa-github"></i>](https://github.com/LearningData/class)
 
 ![classis](/assets/projects/classis.jpg){:class="project"}
 
@@ -48,7 +48,7 @@ Ansible recipe written for automatisation of Classis.
 
 * I delivered the Ansible recipe for Classis to deploy complete instances of Classis in minutes. Includes server configuration and a demo Classis application.
 
-#### **Classis API 2016**
+#### **Classis API** 2016
 
 ![classisapi](/assets/projects/classis_api.jpg){:class="project"}
 
@@ -82,7 +82,7 @@ A small API to convert a URL to a PDF file and download it.
 
 ### Other
 
-#### **School Internships Management System 2012**
+#### **School Internships Management System** 2012
 
 A management system for the students' internships. It was built in PHP with IIS web server and MySQL for the database.
 
