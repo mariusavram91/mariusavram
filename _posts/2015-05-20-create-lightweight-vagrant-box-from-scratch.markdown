@@ -258,8 +258,6 @@ Making use of provisioners, as I said before, it would be much better solution, 
 
 If you want to know how to get a Digital Ocean droplet running in just a few minutes using Vagrant and Ansible you can find it at [Vagrant and Ansible at Digital Ocean by Edgar](http://www.edgarlatorre.com.br/2014/08/17/vagrant-ansible-and-digital-ocean){:target="_blank"}, thanks to whom I have found out about Vagrant.
 
-Share and [subscribe](/feed.xml). Please [drop me an email](mailto:me@mariusavram.com) if you've spotted any mistakes or have questions and/or suggestions.
-
 Thank you for reading!
 
 Thanks to [vagrantupo.com](http://vagrantup.com){:target="_blank"} for the logo.
