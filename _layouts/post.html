@@ -13,6 +13,10 @@ layout: default
     {{ content }}
   </div>
 
+  <p class="rss-subscribe">Share and <a href="{{ "/feed.xml" | prepend: site.baseurl }}">subscribe via RSS</a></p>
+
+  <hr>
+
   <p class="tags">
     Tags:
     {% for tag in page.categories %}
@@ -20,6 +24,12 @@ layout: default
     {% endfor %}
   </p>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <h2>Comments</h2>
+
+  <p>Feedback is appreciated. Please comment or <a
+    href="mailto:me@mariusavram.com">drop me an email</a> if you’ve spotted any mistakes, grammatical or misspellings, something is unclear or have questions and/or suggestions.</p>
+  <p>Thank you!</p>
+
+  {% include disqus.html %}
 
 </article>
