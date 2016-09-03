@@ -308,6 +308,21 @@ a.post-preview {
     }
 }
 
+.post-nav {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    .post-related-link {
+        width: 50%;
+        float: left;
+    }
+
+    .next {
+        text-align: right;
+    }
+}
+
 /* About page */
 
 .headshot {

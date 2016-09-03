@@ -24,6 +24,26 @@ layout: default
     {% endfor %}
   </p>
 
+  <h2>Related posts</h2>
+
+  <div class="post-nav">
+    {% if page.previous.url %}
+    <div class="post-related-link previous">
+      <a href="{{ page.previous.url }}">
+        <i class="fa fa-arrow-left"></i> {{ page.previous.title }}
+      </a>
+    </div>
+    {% endif %}
+
+    {% if page.next.url %}
+    <div class="post-related-link next">
+      <a href="{{ page.next.url }}">
+         {{ page.next.title }} <i class="fa fa-arrow-right"></i>
+      </a>
+    </div>
+    {% endif %}
+  </div>
+
   <h2>Comments</h2>
 
   <p>Feedback is appreciated. Please comment or <a
