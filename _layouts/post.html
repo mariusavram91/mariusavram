@@ -27,21 +27,21 @@ layout: default
   <h2>Related posts</h2>
 
   <div class="post-nav">
-    {% if page.previous.url %}
     <div class="post-related-link previous">
+      {% if page.previous.url %}
       <a href="{{ page.previous.url }}">
         <i class="fa fa-arrow-left"></i> {{ page.previous.title }}
       </a>
+      {% endif %}
     </div>
-    {% endif %}
 
-    {% if page.next.url %}
     <div class="post-related-link next">
+      {% if page.next.url %}
       <a href="{{ page.next.url }}">
          {{ page.next.title }} <i class="fa fa-arrow-right"></i>
       </a>
+      {% endif %}
     </div>
-    {% endif %}
   </div>
 
   <h2>Comments</h2>
