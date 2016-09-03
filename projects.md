@@ -6,6 +6,8 @@ permalink: /projects/
 
 I like building things people can use, creating something from “nothing” and solving puzzles and problems. Who wouldn’t want to be a detective looking for impossible to find bugs and always learning something new? It’s rewarding and challenging and that’s why I love it!
 
+You can follow me on Github [here](https://github.com/mariusavram91){:target="_blank"}.
+
 A few projects I've worked on:
 
 ## Web Applications
