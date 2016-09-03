@@ -260,5 +260,5 @@ If you want to know how to get a Digital Ocean droplet running in just a few min
 
 Thank you for reading!
 
-Thanks to [vagrantupo.com](http://vagrantup.com){:target="_blank"} for the logo.
+Thanks to [vagrantup.com](http://vagrantup.com){:target="_blank"} for the logo.
 
