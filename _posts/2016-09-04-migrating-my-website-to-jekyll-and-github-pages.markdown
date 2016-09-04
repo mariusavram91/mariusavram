@@ -1,9 +1,9 @@
-﻿---
+---
 layout: post
 title: "Migrating my website to Jekyll and Github Pages"
 date: 2016-09-04
 cover: /assets/posts/jekyll_github.jpg
-description: "How I redesigned my website and migrated it to Jekyll and Github Pages from Django Mezzanine CMS."
+description: "How I migrated my website to Jekyll and Github Pages."
 categories: development update ruby jekyll github
 published: false
 ---
