@@ -5,12 +5,11 @@ date: 2016-09-04
 cover: /assets/posts/jekyll_github.jpg
 description: "How I migrated my website to Jekyll and Github Pages."
 categories: development update ruby jekyll github
-published: false
 ---
 
-Last year I thought I should have my own website, as many other developers have, so I built it. I was starting with Python at the time and I didn’t like Wordpress, I still don’t, so I decided to use a Python CMS instead. I found a few options and decided to go with [Django Mezzanine](http://mezzanine.jupo.org){:target="_blank"} hosting it on my own server.
+Last year I thought I should have my own website, like many other developers, so I built it. I was starting with Python at the time and I didn’t like Wordpress, I still don’t, so I decided to use a Python CMS instead. I found a few options and decided to go with [Django Mezzanine](http://mezzanine.jupo.org){:target="_blank"} hosting it on my own server.
 
-When I decided to change the website I did look for other Static Site Generators, especially written in Python, like [Pelican](http://getpelican.com){:target="_blank"}. But ultimately I decided to go with [Jekyll](https://jekyllrb.com){:target="_blank"}, I have used it a few times before and it’s easily deployable to [Github Pages](https://pages.github.com){:target="_blank"}.
+When I decided to change the website I did look for other Static Site Generators, especially written in Python, like [Pelican](http://getpelican.com){:target="_blank"}. But ultimately, I decided to go with [Jekyll](https://jekyllrb.com){:target="_blank"}, I have used it a few times before and it’s easily deployable to [Github Pages](https://pages.github.com){:target="_blank"}.
 
 I know there are many other posts on how to migrate from [insert CMS here] to Jekyll and Github Pages, but I wanted to write about my own experience.
 
@@ -50,7 +49,7 @@ I can write my future posts in Vim and it’s easily deployed by just committing
 
 ## Process
 
-I exported everything I had from old my server and CMS. I changed everything to Markdown and changed the settings in _config.yml. Then I made a few changes to the style and the templates.
+I exported everything I had from my old server and CMS. I changed everything to Markdown and changed the settings in _config.yml. Then I made a few changes to the style and the templates.
 
 ### Rakefile
 
@@ -96,11 +95,11 @@ Now, I can type
 $ rake post title="Post title" cover="image_name" description="Summary of my new post."
 ```
 
-and a file is automatically generated and opened in Vim for me to edit.
+and a file is automatically generated and opened in Vim for me to edit as a draft, ```published: false```.
 
 ### Domain
 
-I created a file called CNAME to the repository's root path containing my domain, Github Pages will detect this as a custom domain.
+I created a file called CNAME in the repository's root path containing my domain, Github Pages will detect this as a custom domain.
 
 I would like to serve my site over HTTPS, unfortunately, it is not straight forward and [a Cloudflare account is needed](https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains){:target="_blank"}.
 
@@ -114,7 +113,7 @@ www 	CNAME 	mariusavram91.github.io.
 
 ### Disqus
 
-I integrated [Disqus](https://disqus.com/admin/universalcode){:target="_blank"} for post comments, adding disqus_name to my _config.yml and created a disqus.html file in the _includes directory.
+I integrated [Disqus](https://disqus.com/admin/universalcode){:target="_blank"} for post comments, adding disqus_name to my _config.yml and creating a disqus.html file in the _includes directory.
 
 {% raw %}
 ```html
@@ -156,13 +155,13 @@ I added the Google Analytics script to my footer.html file.
 
 ### To do
 
-Improve the gallery, which, at the moment, is just a list with the images. It takes a lot to load, even though I lowered the quality of the photos and I would also like to have a preview when clicking on each image.
+Improve the gallery, which, at the moment, is just a list with the images. It takes a lot to load, even though I lowered the quality of the photos. I would also like to have a preview when clicking on each image.
 
 I will add a custom 404 page, improve the tags and add HTTPS support.
 
 ## Conclusion
 
-In a week, my site using Jekyll and Github Pages was available and I am quite happy with the change so far. The hardest part was to export/import some of the content and had to do it manually.
+In a week, my site using Jekyll and Github Pages was available and I am quite happy with the change so far. The hardest part was to export/import some of the content and had to do it manually sometimes.
 
 You can see the source code in [my Github repository](https://github.com/mariusavram91/mariusavram){:target="_blank"}.
 
