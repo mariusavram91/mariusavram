@@ -121,3 +121,13 @@ Follow her [instagram](https://instagram.com/elmundoenmicocina) to see the lates
 #### **[Magneto Producciones](http://www.magnetoproducciones.com)**  2012
 
 Corporate website for Magneto Producciones. I participated in a team writing frontend code.
+
+## Volunteering and additional experience
+
+* I taught children programming (HTML, CSS, Javascript, Python, Scratch) during a year at a local Coder Dojo.
+
+[CoderDojo](https://coderdojo.com/) is an open source, volunteer led movement orientated around running free not-for-profit coding clubs and regular sessions for young people aged 7-17. CoderDojo puts an emphasis on self motivated learning through project work, peer to peer mentoring and the creation of socially innovative projects.
+
+* I have also volunteered at Collision Conf 15 in Las Vegas and Web Summit 15 in Dublin.
+
+* I participated in various hackathons and Startup Weekends.
