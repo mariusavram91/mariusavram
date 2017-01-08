@@ -6,15 +6,15 @@ permalink: /about/
 
 ![Headshot](/assets/headshot.png){:class="headshot"}
 
-I am Marius, a Software Developer from Europe. I have lived in Braila, Madrid and Dublin.
+I am Marius, a Software Developer from Europe. I have lived in Braila, Madrid and Dublin. I have recently moved to Berlin.
 
 I would describe myself as a highly motivated, independent and curious person. My passion is writing code and I like drawing/painting (digital and oil on canvas), photography, travelling, reading and music. I would like to travel around the world some day.
 
 You can find me on [Twitter](https://twitter.com/@MariusAvram91){:target="_blank"}, [Github](https://github.com/mariusavram91){:target="_blank"}, [Instagram](https://instagram.com/mariusavram91){:target="_blank"} and [Linkedin](http://ie.linkedin.com/in/mariusavram91){:target="_blank"}.
 
-### Winter of '91 and where I come from
+### Origins
 
-Born in 1991, just two years after the [Romanian Revolution](https://en.wikipedia.org/wiki/Romanian_Revolution){:target="_blank"}, I grew up in a small town next to the Danube river, in Muntenia region (historically called [Wallachia](https://en.wikipedia.org/wiki/Wallachia){:target="_blank"}).
+Born two years after the [Romanian Revolution](https://en.wikipedia.org/wiki/Romanian_Revolution){:target="_blank"}, I grew up in a small town next to the Danube river, in Muntenia region (historically called [Wallachia](https://en.wikipedia.org/wiki/Wallachia){:target="_blank"}).
 
 ### Romania
 
@@ -28,7 +28,7 @@ We like arts, literature, science, cuisine, sports and very old [traditions](htt
 
 It is a very [beautiful country](http://www.wherecoolthingshappen.com/22-photographs-prove-that-romania-is-beautiful){:target="_blank"} and I would strongly recommend you to visit it. Very nice landscape, Carpathians especially, and very tasty food.
 
-### How did I get into computers?
+### Computers
 
 I have always been curious about how things worked, sometimes I would prefer to open a remote car toy just to see how it works than play with it.
 
@@ -46,21 +46,21 @@ I stopped for a few years and, when I decided to try again, I rediscovered it wa
 
 Another activity I enjoy is [Photography](https://www.flickr.com/photos/mariusavram){:target="_blank"}. If you would like to see some of my art, please go to the [Gallery](/gallery).
 
-### Big change I
+### Spain
 
-Two years after my parents relocated to Madrid, my sister and I also moved there. It was a big change for both of us, culturally and due to the language barrier. We adapted fast, learning Spanish easily (I learnt some on my own before moving) and making friends. I enjoyed my Internet connection extremely and tried to build an HTML/CSS website.
+A couple of years after my parents relocated to Madrid, I also moved there. It was a big change for me, culturally and due to the language barrier. Learning Spanish really fast helped me with the integration. I extremely enjoyed my first Internet connection and tried to build an HTML/CSS website.
 
-I decided I wouldn't go to college but take two years vocational course about Telecommunications and IT. I loved it, I learnt about telephony, television and video editing, electronics, networking, Linux, programming and much more.
+I decided I wouldn't go to college but take a two years vocational course on Telecommunications and IT. I loved it, I learnt about telephony, television and video editing, electronics, networking, Linux, programming and many other things.
 
-### Starting to be a professional
+### First jobs
 
 I had an internship of three months at a [company](http://wirelessmundi.com){:target="_blank"} that was developing a PHP Web application and I tried to learn the most from them in that short time. After the internship finished, I had my first diving in the entrepreneurship world. Two friends and I started a "company" which would make websites and fix computers, after long time waiting we had our first client and, unfortunately, the last one. We redesigned and built the company's website.
 
 After some time interviewing for a real job, I was hired at a company in Madrid, Classis, as a PHP Developer and Support Assistant. I did my best and learnt a lot during my time there.
 
-### Big change II
+### Ireland
 
-The [company](http://learningdata.ie){:target="_blank"} was bought, after six months, by a Dublin based bigger company and I was asked if I wanted to move to Dublin. Once again, I was moving to a completely new place, this time on my own. I arrived to Dublin excited, motivated and ready for a new challenge.
+The [company](http://learningdata.ie){:target="_blank"} was bought, after six months, by a Dublin based bigger company and I was asked if I wanted to relocate to Dublin. Once again, I was moving to a completely new place, this time on my own. I arrived to Dublin excited, motivated and ready for a new challenge.
 
 ### Back home
 
@@ -78,7 +78,7 @@ During the 2015 summer I went on an Interrail trip for 10 days, flying from Dubl
 
 ![Interrail, 2015](/assets/interrail.jpg)
 
-Talking about languages, I like to learn them. Speaking Romanian, learning English and French at school, then learning Spanish on my own and when I moved to Madrid, also trying to learn German. I would also like to learn either Chinese or Japanese.
+I speak Romanian, English, Spanish, some French (it is a bit rusty though). I am currently trying to learn German. I would also like to learn either Chinese or Japanese.
 
 ### Why programming?
 
@@ -92,7 +92,7 @@ I love [Python](https://www.python.org){:target="_blank"}. Python is simple, fun
 
 ### Gear
 
-I am currently using a Lenovo Thinkpad T450s with Ubuntu as OS, I prefer Gnome Classic to other desktop environments. I enjoy using Vim to write code, it is very efficient.
+I am currently using a Lenovo Thinkpad T450s with Ubuntu as OS, I prefer Gnome Classic to other desktop environments. I enjoy using Vim to write code, it is very efficient. Vim + Tmux + Oh My Zsh is a match made in heaven.
 
 ![Thinkpad T450s](/assets/gear.jpg)
 

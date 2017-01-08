@@ -15,7 +15,7 @@ How you can get in touch with me:
 
   <a href="https://twitter.com/@MariusAvram91">
     <i class="fa fa-twitter fa-5x"></i>
-    <span class="message">I post about programming, tech, art and news.</span>
+    <span class="message">Posts on programming, tech, movies, art, etc.</span>
   </a>
 
   <a href="http://ie.linkedin.com/in/mariusavram91">
@@ -30,7 +30,7 @@ How you can get in touch with me:
 
   <a href="https://instagram.com/mariusavram91">
     <i class="fa fa-instagram fa-5x"></i>
-    <span class="message">Don't even know why? Narcissism, I guess.</span>
+    <span class="message">Photographs and quick snapshots.</span>
   </a>
 
   <a href="https://plus.google.com/+MariusAvram91">
