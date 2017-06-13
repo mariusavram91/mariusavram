@@ -22,6 +22,8 @@ Offline (TV) and Online (Mobile) analytics service.
 
 * ReactJS and Less on the client side.
 
+* Rails API.
+
 ### Kimera
 
 #### **[Python Jobs Ireland](http://pythonjobs.ie)** 2015 - Present [<i class="fa fa-github"></i>](https://github.com/kimeraapp/pythonjobs.ie)

@@ -33,7 +33,7 @@ How you can get in touch with me:
     <span class="message">Photographs and quick snapshots.</span>
   </a>
 
-  <a href="https://plus.google.com/+MariusAvram91">
+  <a href="#">
     <i class="fa fa-google-plus fa-5x"></i>
     <span class="message">Er... just kidding, nobody uses Google+.</span>
   </a>
