@@ -14,7 +14,7 @@ A few projects I've worked on:
 
 ### DCMN
 
-#### **[DCMN Analytics Tool](http://dcmn.com)** 2016 - Present
+#### **[DCMN Analytics Tool](http://dcmn.com)** 2016 - 2018
 
 Offline (TV) and Online (Mobile) analytics service.
 
@@ -26,7 +26,7 @@ Offline (TV) and Online (Mobile) analytics service.
 
 ### Kimera
 
-#### **[Python Jobs Ireland](http://pythonjobs.ie)** 2015 - Present [<i class="fa fa-github"></i>](https://github.com/kimeraapp/pythonjobs.ie)
+#### **[Python Jobs Ireland](http://pythonjobs.ie)** 2015 - 2016 [<i class="fa fa-github"></i>](https://github.com/kimeraapp/pythonjobs.ie)
 
 ![pythonjobs.ie](/assets/projects/pythonjobs.jpg){:class="project"}
 
