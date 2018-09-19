@@ -8,7 +8,7 @@ I like building things people can use, creating something from “nothing” and
 
 I have six years of experience working mostly on backend, but I got my hands dirty on frontend and some devops tasks. I have a drive for clean, readable, testable, and well-documented code. My favourite working environment: Linux + Tmux + Vim.
 
-I think version control tools such as Git are a very important part of software development (I've been using Gitflow for a couple of years now) and I am all for Continous Development, Continous Integration, and Code reviews. I am able to work in a team but also perform some tasks unsupervised.
+I think version control tools such as Git are a very important part of software development (I've been using Gitflow for a couple of years now) and I am all for Continuous Development, Continuous Integration, and Code reviews. I am able to work in a team but also perform some tasks unsupervised.
 
 What I am looking for in a company is personal and professional growth. I have strong desire to learn and improve my skills.
 
