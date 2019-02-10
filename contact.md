@@ -13,9 +13,9 @@ How you can get in touch with me:
     <span class="message">You can email me at: <em>me [at] mariusavram [dot] com</em>.</span>
   </a>
 
-  <a href="https://twitter.com/@MariusAvram91">
-    <i class="fa fa-twitter fa-5x"></i>
-    <span class="message">Posts on programming, tech, movies, art, etc.</span>
+  <a href="https://github.com/mariusavram91">
+    <i class="fa fa-github fa-5x"></i>
+    <span class="message">Projects and Open Source contributions.</span>
   </a>
 
   <a href="http://ie.linkedin.com/in/mariusavram91">
@@ -23,12 +23,12 @@ How you can get in touch with me:
     <span class="message">Professional experience and CV.</span>
   </a>
 
-  <a href="https://github.com/mariusavram91">
-    <i class="fa fa-github fa-5x"></i>
-    <span class="message">Projects and Open Source contributions.</span>
+  <a href="#IQuitTwitter">
+    <i class="fa fa-twitter fa-5x"></i>
+    <span class="message">Posts on programming, tech, movies, art, etc.</span>
   </a>
 
-  <a href="https://instagram.com/mariusavram91">
+  <a href="#IQuitInstagram">
     <i class="fa fa-instagram fa-5x"></i>
     <span class="message">Photographs and quick snapshots.</span>
   </a>
