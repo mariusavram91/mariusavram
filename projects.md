@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Projects
 permalink: /projects/
 ---
 
@@ -103,6 +104,30 @@ An e-diary application for teachers, students and parents built using Phalcon PH
 
 ### Random
 
+#### **python_collection** 2018 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/python_collection)
+
+A collection of python scripts exercises.
+
+#### **devicedetection** 2019 - Present [api <i class="fa fa-github"></i>](https://github.com/mariusavram91/devicedetection_api) [frontend <i class="fa fa-github"></i>](https://github.com/mariusavram91/devicedetection_frontend)
+
+REST API using Lumen PHP microframework for Device Type and OS detection and ReactJS for client.
+
+#### **whatsapp_parser** 2018 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/whatsapp_parser)
+
+Parser for Whatsapp exports. Jupyter Notebook and matplotlib graphs for whatsapp stats: [<i class="fa fa-github"></i>](https://github.com/mariusavram91/whatsapp_stats).
+
+#### **pokestats** 2018 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/pokestats)
+
+Command line tool for PokeAPI stats.
+
+#### **magicsquare** 2018 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/magicsquare)
+
+Script that builds Magic Squares with dimension n*n, where n is an odd positive integer.
+
+#### **restaurants_api** 2018 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/restaurants_api)
+
+REST API for restaurants using Django REST Framework.
+
 #### **trees** 2018 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/trees)
 
 A simple Python script for POST requests only using the standard library.
@@ -116,6 +141,10 @@ A Python script to generate a CV and cover letter.
 A small API to convert a URL to a PDF file and download it.
 
 * Written using Flask Python framework and deployed to Heroku through Travis CI.
+
+#### **dotfiles** 2016 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/dotfiles)
+
+My customised dotfiles (tmux, vimrc, zshrc).
 
 ### Other
 
