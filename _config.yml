@@ -16,10 +16,7 @@ url: "http://mariusavram.com" # the base hostname & protocol for your site
 
 permalink: /blog/:year/:month/:day/:title/
 
-twitter_username: mariusavram91
 github_username:  mariusavram91
-
-disqus_name: mariusavram
 
 # Build settings
 markdown: kramdown
