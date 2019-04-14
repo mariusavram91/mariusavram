@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Gallery
+show: true
 permalink: /gallery/
 dirs:
   - traditional
