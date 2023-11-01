@@ -6,7 +6,7 @@ permalink: /projects/
 
 ### Projects
 
-Here you can find some projects I have worked on. You can download my [résumé](/assets/Marius_Avram_PM-Resume.pdf){:target="_blank"} or see my code on [Github](https://github.com/mariusavram91){:target="_blank"}.
+Here you can find some projects I have worked on. You can download my [**résumé**](/assets/Marius_Avram_PM-Resume.pdf){:target="_blank"} or see my code on [**Github**](https://github.com/mariusavram91){:target="_blank"}.
 
 #### Technologies I have used
 
@@ -266,8 +266,10 @@ Corporate website for Magneto Producciones. Participated in a team of three writ
 
 ---
 
-You can send me an [email](mailto:me@mariusavram.com){:target="_blank"}.
+You can send me an [**email**](mailto:me@mariusavram.com){:target="_blank"}.
 
-You can download my [résumé](/assets/Marius_Avram_PM-Resume.pdf){:target="_blank"}.
+You can download my [**résumé**](/assets/Marius_Avram_PM-Resume.pdf){:target="_blank"}.
 
-[⏏ Back to top](#)
+<p markdown="1" style="text-align:right;">
+[⏏ **Back to top**](#)
+</p>
