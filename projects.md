@@ -1,194 +1,273 @@
 ---
-layout: page
-title: Projects
-show: true
+layout: default
+title: Marius Avram - Projects
 permalink: /projects/
 ---
 
-I like building things people can use, creating something from “nothing” and solving puzzles and problems. Who wouldn’t want to be a detective looking for impossible to find bugs and always learning something new? It’s rewarding and challenging and that’s why I love it!
+### Projects
 
-I have six years of experience working mostly on backend, but I got my hands dirty on frontend and some devops tasks. I have a drive for clean, readable, testable, and well-documented code. My favourite working environment: Linux + Tmux + Vim.
+Here you can find some projects I have worked on. You can download my [résumé](/assets/Marius_Avram_PM-Resume.pdf){:target="_blank"} or see my code on [Github](https://github.com/mariusavram91){:target="_blank"}.
 
-I think version control tools such as Git are a very important part of software development (I've been using Gitflow for a couple of years now) and I am all for Continuous Development, Continuous Integration, and Code reviews. I am able to work in a team but also perform some tasks unsupervised.
-
-What I am looking for in a company is personal and professional growth. I have strong desire to learn and improve my skills.
-
-You can check out my open source projects on Github [here](https://github.com/mariusavram91){:target="_blank"}.
-
-## Technologies I've used
+#### Technologies I have used
 
 Python (Django, Flask), PHP (Zend), Ruby (Ruby on Rails), MySQL & PostgreSQL, HTML/CSS/Javascript, ReactJS, Apache, Ansible, Heroku, Azure, Git.
 
-A few projects I've worked on:
+#### Methodologies I have used
 
-## Web Applications
+Agile (Kanban and Scrum), ShapeUp, TDD, CI/CD.
 
-### DCMN
+#### Companies I worked for
 
-#### **[DCMN TV and Mobile Analytics Tool](http://dcmn.com)** 2016 - 2017
+![Babbel](/assets/babbel.png){:class="company"}
+![DCMN](/assets/dcmn.png){:class="company"}
+![LearningData](/assets/learningdata.png){:class="company"}
+![ClassIS](/assets/classis.jpeg){:class="company"}
+
+---
+
+#### MakeYourMaps & Sync (CareerFoundry Product Management Course) | 2023 | [Github](https://github.com/mariusavram91/cf-pm){:target="_blank"}
+
+##### MakeYourMaps
+
+![MakeYourMaps](/assets/projects/makeyourmaps.png){:class="project"}
+
+GoogleMaps-like product.
+
+* Wrote Product Requirements Document. Wireframing. OKRs and KPIs.
+  
+* User and Market Research and Prioritisation. Persona and Persona Spectrums creation.
+  
+* Roadmapping. Solution Ideation and Success Measurements. User Stories.
+
+##### Sync
+
+![Sync](/assets/projects/sync.png){:class="project"}
+
+Video Conferencing product.
+
+* Vision and Mission. Problem Statement. User Flow.
+
+* Assumptions and Valuable Research Planning.
+
+* Reasearch Data organisation and analysis. Running Brainstorming sessions.
+
+* Team Alignment and Conflict Resolution.
+
+#### Babbel
+
+##### **[Babbel Travel](https://travel.babbel.com){:target="_blank"}** | 2019 - 2021
+
+![Babbel Travel](/assets/projects/babbel-travel.png){:class="project"}
+
+Learning Languages with locals.
+
+* Used Python (Django Framework) in the backend for the REST API and ReactJS with NextJS for the frontend, contributing with new features and mantainance, code reviews, etc.
+  
+* Collaborated in a cross-functional team directly with Marketing and Customer Support teams to deliver
+features for the Language Travel platform.
+
+* Participated in Agile ceremonies and Brainstorming & Ideation sessions.
+
+* Presented product updates at company-wide updates meetings.
+
+##### **Babbel Guide** | 2021
+
+Babbel's Guide for learning Languages
+
+* Worked within a team on the Discovery and Ideation of a Guide Platform for language learners.
+
+##### **[Babbel Live](https://live.babbel.com){:target="_blank"}** | 2021 - 2022
+
+![Babbel Live](/assets/projects/babbel-live.png){:class="project"}
+
+* Used NodeJS and Typescript on the Backend of the Live platform, which had an Event Driven Architecture and used DynamoDB.
+
+* Contributed with new features and mantainance, code reviews, etc.
+
+* Participated in Agile ceremonies and Brainstorming & Ideation sessions.
+
+* Attended User Interviews during the Discovery process.
+
+#### DCMN
+
+##### **[DCMN TV and Mobile Analytics Tool](https://dcanalytics.dcmn.com/){:target="_blank"}** | 2016 - 2017
+
+![DC Analytics](/assets/projects/dc-analytics.png){:class="project"}
 
 Offline (TV) and Online (Mobile) analytics service.
 
-* I started working with PHP (Zend Framework) for the Offline Analytics RESTFUL API, contributing with new features and mantainance, code reviews, etc.
+* Used PHP (Zend Framework) for the Offline Analytics RESTFUL API, contributing with new features and mantainance, code reviews, etc.
 
-* After some time I started using ReactJS and Less on the frontend side of the TV Analytics tool. Previously to this I only used pure Javascript or JQuery, so I had to learn a new technology to be able to collaborate with my team mates.
+* Used ReactJS and Less on the frontend side of the TV Analytics tool.
 
-#### **[DCMN DSP](http://dcmn.com)** 2017 - 2018
+##### **DCMN DSP** | 2017 - 2018
 
-* When Realzeit joined DCMN I was offered a new position in the new team. I had to take over the Ruby on Rails API part of the project and act a bit as a middleware in between the Go backend developers and the frontend developer while working very closely with out Product Manager.
+The Demand-Side Platform consisted of many Go microservices and a Rails backend + frontend. Management of add with rogrammatic advertising, real-time bidding, rich media ads, etc.
 
-    I achieved to deliver interactive ads compatibility with the API, which was successful, but I could've handle automatisation of some processes better.
+* Took over the Ruby on Rails API of the newly acquired Realzeit DSP platform, where I worked closely with our CTO and Project Manager.
+  
+* Contributed with new features and mantainance, code reviews, etc.
 
-### Kimera
+* Participated in Agile ceremonies and Brainstorming & Ideation sessions.
 
-#### **[Python Jobs Ireland](http://pythonjobs.ie)** 2015 - 2016 [<i class="fa fa-github"></i>](https://github.com/kimeraapp/pythonjobs.ie)
+* Delivered interactive ads compatibility feature for our DSP platform.
 
-![pythonjobs.ie](/assets/projects/pythonjobs.jpg){:class="project"}
+#### Kimera
 
-A jobs board for Python, the programmming language, exclusive to Ireland. It was built using Django and it is deployed to Heroku through Travis CI.
+##### **[Python Jobs Ireland](http://pythonjobs.ie){:target="_blank"}** | 2015 - 2016 | [Github](https://github.com/kimeraapp/pythonjobs.ie){:target="_blank"}
 
-* I have collaborated in a team of three, another developer and a designer, writing backend code, unit testing and documentation.
+![pythonjobs.ie](/assets/projects/pythonjobs.png){:class="project"}
 
-* We achieved to make it popular amongst the Python community in Dublin and during the Pycon Ireland 2015 Sprints we had a few external pull requests.
+An Open Source jobs board for Python, the programmming language, exclusive to Ireland. It was built using Django and it is deployed to Heroku through Travis CI.
 
-### Learning Data
+* Collaborated in a team of three, another developer and a designer, writing backend code, unit testing and writing documentation.
 
-#### **Classis** 2013 - 2016 [<i class="fa fa-github"></i>](https://github.com/LearningData/class)
+* It was a success among the Python community in Dublin and during the Pycon Ireland 2015 Sprints we had a few external pull requests.
+
+#### ClassIS | LearningData
+
+##### **Classis** | 2013 - 2016 | [Github](https://github.com/LearningData/class){:target="_blank"}
 
 ![classis](/assets/projects/classis.jpg){:class="project"}
 
 A School Management Information System, a multi tenant web application, written in a custom PHP framework. Running on Apache, MySQL for database and Git for version control.
 
-It is a complete student tracking, reporting and information management. A different instance is deployed for each school.
+It is a complete student tracking, reporting, and information management. A different instance was deployed for each school, on their own servers, which we maintained and supported.
 
-* I have delivered multiple features and improvements for backend, frontend and infrastructure. I've added Capistrano to automate the deployments to each of or all instances, this addition made updating all the decentralised instances a much faster process. Implemented various API integrations for file sharing, such as Dropbox and Google Drive, and information synchronisation with Active Directory and MSSQL databases, as well as the integration with Schoolbag.
+* Delivered multiple features and improvements for backend, frontend and infrastructure. Used PHP, jQuery, and CSS.
+
+* Added Capistrano to automate the deployments to each of or all instances, this addition made updating all the decentralised instances a much faster process.
+
+* Implemented various third party integrations for file sharing, such as Dropbox and Google Drive, and information synchronisation with Active Directory and MSSQL databases.
 
 * Created customised XML and XSLT templates for school reports.
 
-* I migrated our instances to Azure and managed them. I added monitorisation and automatisation which improved our efficiency and downtimes.
+* Successfully implemented SEPA payments integration.
+  
+* Regularly collaborated with users (teachers) and provided them with Technical Support.
 
-#### **Classis Ansible**  2016 [<i class="fa fa-github"></i>](https://github.com/LearningData/classis-ansible)
+* Successfuly migrated our servers to Azure and managed them. Added monitorisation and automatisation which improved our efficiency and downtimes significantly.
+
+##### **Classis Ansible**  | 2016 | [Github](https://github.com/LearningData/classis-ansible){:target="_blank"}
 
 ![classisansible](/assets/projects/classis_ansible.jpg){:class="project"}
 
 Ansible recipe written for automatisation of Classis.
 
-* I implemented it with Vagrant to improve the efficiency of the development process.
+* Implemented to improve the efficiency and speed of the development process.
 
-* I delivered the Ansible recipe for Classis to deploy complete instances of Classis in minutes, this was a very complicated and troublesome process. Includes server configuration and a demo Classis application.
-
-#### **Classis API** 2016
+##### **Classis API** | 2016
 
 ![classisapi](/assets/projects/classis_api.jpg){:class="project"}
 
 A REST API written using Flask Python framework and its web client written in Javascript/jQuery.
 
-* I built it to act as a router to many different databases, to be able to fetch data from the different Classis instances. Fabric is used for its deployment. It proved to be a challenge for me at the time as I've never built an API completely from scratch before.
+* Designed and built a REST API for the Teacher Portal using the Flask framework (Python) for integration with other systems, which decreased the time for manual export by 50%.
 
-    Thanks to this API schools could migrate data to different systems much faster than before and in a more standard way.
+##### **Classic** | 2014-2015
 
-#### **Classic** 2014-2015
+* Mantained and added a few new features to a School Parent Portal written in PHP using the ELGG framework.
 
-I mantained and added a few new features to a School Parent Portal written in PHP using the ELGG framework.
-
-#### **[Schoolbag](https://schoolbag.ie)** 2014 - 2016
+##### **[Schoolbag](https://schoolbag.ie){:target="_blank"}** | 2014 - 2016
 
 ![schoolbag](/assets/projects/schoolbag.jpg){:class="project"}
 
 An e-diary application for teachers, students and parents built using Phalcon PHP.
 
-* I delivered the Office 365 integration, synchronisation with the directory and authentication, adding Schoolbag to Azure Marketplace.
+* Delivered an Office 365 integration, synchronisation with the directory and authentication, as well as adding Schoolbag to Azure Marketplace.
 
-* I have implemented various other API integrations (REST and SOAP) from data providers such as: Classis, Advanced Learning, VSWare, LDAP and Active Directory.
+* Implemented various other API integrations (REST and SOAP) from data providers such as: Classis, Advanced Learning, VSWare, LDAP and Active Directory.
 
-* I also collaborated with the Schoolbag team fixing bugs in the backend and frontend.
+---
 
-### Random
+#### Random
 
-#### **python_collection** 2018 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/python_collection)
+##### **python_collection** | 2018 | [Github](https://github.com/mariusavram91/python_collection){:target="_blank"}
 
 A collection of python scripts exercises.
 
-#### **devicedetection** 2019 - Present [api <i class="fa fa-github"></i>](https://github.com/mariusavram91/devicedetection_api) [frontend <i class="fa fa-github"></i>](https://github.com/mariusavram91/devicedetection_frontend)
+##### **devicedetection** | 2019 | [api Github](https://github.com/mariusavram91/devicedetection_api){:target="_blank"} [frontend Github](https://github.com/mariusavram91/devicedetection_frontend){:target="_blank"}
 
 REST API using Lumen PHP microframework for Device Type and OS detection and ReactJS for client.
 
-#### **whatsapp_parser** 2018 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/whatsapp_parser)
+##### **whatsapp_parser** | 2018 | [Github](https://github.com/mariusavram91/whatsapp_parser){:target="_blank"}
 
-Parser for Whatsapp exports. Jupyter Notebook and matplotlib graphs for whatsapp stats: [<i class="fa fa-github"></i>](https://github.com/mariusavram91/whatsapp_stats).
+Parser for Whatsapp exports. Jupyter Notebook and matplotlib graphs for whatsapp stats: [Github](https://github.com/mariusavram91/whatsapp_stats).
 
-#### **pokestats** 2018 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/pokestats)
+##### **pokestats** | 2018 | [Github](https://github.com/mariusavram91/pokestats){:target="_blank"}
 
 Command line tool for PokeAPI stats.
 
-#### **magicsquare** 2018 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/magicsquare)
+##### **magicsquare** | 2018 | [Github](https://github.com/mariusavram91/magicsquare){:target="_blank"}
 
 Script that builds Magic Squares with dimension n*n, where n is an odd positive integer.
 
-#### **restaurants_api** 2018 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/restaurants_api)
+##### **restaurants_api** | 2018 | [Github](https://github.com/mariusavram91/restaurants_api){:target="_blank"}
 
 REST API for restaurants using Django REST Framework.
 
-#### **trees** 2018 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/trees)
+##### **trees** | 2018 | [Github](https://github.com/mariusavram91/trees){:target="_blank"}
 
 A simple Python script for POST requests only using the standard library.
 
-#### **python_cv** 2018 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/python_cv)
+##### **python_cv** | 2018 | [Github](https://github.com/mariusavram91/python_cv){:target="_blank"}
 
 A Python script to generate a CV and cover letter.
 
-#### **[htmltopdf](http://htmltopdf.mariusavram.com/api)** 2016 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/htmltopdf)
+##### **htmltopdf** | 2016 | [Github](https://github.com/mariusavram91/htmltopdf){:target="_blank"}
 
-A small API to convert a URL to a PDF file and download it.
+A small API to convert a URL to a PDF file and download it. Written using Flask Python framework and deployed to Heroku through Travis CI.
 
-* Written using Flask Python framework and deployed to Heroku through Travis CI.
-
-#### **dotfiles** 2016 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/dotfiles)
+##### **dotfiles** | 2016 - Present | [Github](https://github.com/mariusavram91/dotfiles){:target="_blank"}
 
 My customised dotfiles (tmux, vimrc, zshrc).
 
-### Other
+---
 
-#### **School Internships Management System** 2012
+#### **School Internships Management System** | 2012
 
 A management system for the students' internships. It was built in PHP with IIS web server and MySQL for the database.
 
-* I designed the frontend, the architecture and wrote the backend code. I was part of a four members team.
+* Designed the frontend, the architecture and wrote the backend code in a team of four.
 
-    It was my first PHP project working in a team and I had to learn a lot really fast.
+#### Websites
 
-## Websites
+##### **[Personal Website](https://mariusavram.com){:target="_blank"}**  | 2016 - Present | [Github](https://github.com/mariusavram91/mariusavram){:target="_blank"}
 
-#### **[Personal Website](http://mariusavram.com)**  2016 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/mariusavram)
+Personal website, mariusavram.com. Built in Jekyll and deployed to Github Pages.
 
-![mariusavram.com](/assets/projects/mariusavram_web.jpg){:class="project"}
-
-My personal website, mariusavram.com. Done in Jekyll and deployed to Github Pages.
-
-#### **[El Mundo en mi Cocina](http://elmundoenmicocina.es)**  2016 - Present [<i class="fa fa-github"></i>](https://github.com/mariusavram91/elmundoenmicocina)
+##### **[El Mundo en mi Cocina](https://elmundoenmicocina.es){:target="_blank"}**  | 2016 - 2019 | [Github](https://github.com/mariusavram91/elmundoenmicocina){:target="_blank"}
 
 ![elmundoenmicocina.es](/assets/projects/elmundoenmicocina_web.jpg){:class="project"}
 
-Mom's recipes website, elmundoenmicocina.es, for desserts around the world. Done in Jekyll and deployed to Github Pages.
+Mum's recipes website, elmundoenmicocina.es, for desserts around the world. Built in Jekyll and deployed to Github Pages.
 
-* I have also photographed and ate most of the desserts.
+* Designed Logo, took photographs of the desserts, and ate a lot of them.
 
-Follow her [instagram](https://instagram.com/elmundoenmicocina) to see the latest recipes.
+Follow her [instagram](https://instagram.com/elmundoenmicocina){:target="_blank"} to see her latest recipes.
 
-#### **[Magneto Producciones](http://www.magnetoproducciones.com)**  2012
+##### **[Magneto Producciones](https://www.magnetoproducciones.com){:target="_blank"}**  | 2012
 
-Corporate website for Magneto Producciones. I participated in a team writing frontend code.
+Corporate website for Magneto Producciones. Participated in a team of three writing frontend code.
 
-## Volunteering and additional experience
+---
 
-* I taught children programming (HTML, CSS, Javascript, Python, Scratch) during a year at a local Coder Dojo.
+#### Volunteering and additional experience
 
-    [CoderDojo](https://coderdojo.com/) is an open source, volunteer led movement orientated around running free not-for-profit coding clubs and regular sessions for young people aged 7-17. CoderDojo puts an emphasis on self motivated learning through project work, peer to peer mentoring and the creation of socially innovative projects.
+* Taught children programming (HTML, CSS, Javascript, Python, Scratch) during a year at a local Coder Dojo in a Youth Club (Coder Dojo SWICN).
 
-    I found it very challenging at the beginning and it took me a while to get used to being a "teacher" and try to challenge the kids in an exciting way by coming up with different tasks for them.
+    [CoderDojo](https://coderdojo.com/){:target="_blank"} is an open source, volunteer led movement orientated around running free not-for-profit coding clubs and regular sessions for young people aged 7-17. CoderDojo puts an emphasis on self motivated learning through project work, peer to peer mentoring and the creation of socially innovative projects.
 
-* I have also volunteered at Collision Conf 15 in Las Vegas and Web Summit 15 in Dublin.
+    Tasks included teaching children, aged 7 to 15, programming in HTML, CSS, Javascript, and Scratch, organising exercises and lessons, as well as interacting one on one and giving feedback.
 
-* I participated in various hackathons and Startup Weekends.
+* Volunteered at Collision Conf 15 in Las Vegas and Web Summit 15 in Dublin.
 
-    I find hackathons to be very challenging because you usually have to jump in a team with complete strangers you've never worked with before and build something in a very short period of time.
+* Participated in various hackathons and Startup Weekends between 2013 and 2016.
+
+---
+
+You can send me an [email](mailto:me@mariusavram.com){:target="_blank"}.
+
+You can download my [résumé](/assets/Marius_Avram_PM-Resume.pdf){:target="_blank"}.
+
+[⏏ Back to top](#)

@@ -1,45 +1,29 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-3">
-        <ul class="contact-list">
-          <li>{{ site.title }} © {{ site.time | date: '%Y' }} All rights reserved.</li>
-          <li>Powered by <a href="https://github.com/mariusavram91/mariusavram" target="_blank">Jekyll & Github Pages</a>.</li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-	<ul class="social-network">
-	  <li>
-            <a title="Email me" target="_blank" href="mailto:me@mariusavram.com">
-              <i class="fa fa-envelope"></i>
-            </a>
-          </li>
-	  <li>
-            <a title="Connect with me on Linkedin" target="_blank" href="http://ie.linkedin.com/in/mariusavram91">
-              <i class="fa fa-linkedin"></i>
-            </a>
-          </li>
-	  <li>
-            <a title="Check out my Github projects" target="_blank" href="https://github.com/mariusavram91">
-              <i class="fa fa-github"></i>
-            </a>
-          </li>
-	  <li>
-            <a title="See my photography on Flickr" target="_blank" href="https://www.flickr.com/photos/mariusavram">
-              <i class="fa fa-flickr"></i>
-            </a>
-          </li>
-          <li>
-            <a title="Subscribe via RSS" target="_blank" href="{{ "/feed.xml" | prepend: site.baseurl }}">
-              <i class="fa fa-rss"></i>
-            </a>
-          </li>
-	</ul>
-      </div>
-
+<div class="footer">
+  <div class="copyright">
+    <p>{{ site.title }} © {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p>
+      Powered by
+      <a href="https://github.com/mariusavram91/mariusavram" target="_blank"
+        >Jekyll & Github Pages</a
+      >.
+    </p>
   </div>
-
-</footer>
+  <img class="logo" src="/assets/logo.png" />
+  <div class="contact">
+    <a title="Email me" target="_blank" href="mailto:me@mariusavram.com">
+      <span class="icon icon-mail"></span
+    ></a>
+    <a
+      title="Connect with me on LinkedIn"
+      target="_blank"
+      href="https://ie.linkedin.com/in/mariusavram91"
+      ><span class="icon icon-linkedin"></span
+    ></a>
+    <a
+      title="Check out my Github projects"
+      target="_blank"
+      href="https://github.com/mariusavram91"
+      ><span class="icon icon-github"></span
+    ></a>
+  </div>
+</div>

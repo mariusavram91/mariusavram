@@ -2,33 +2,68 @@
 layout: default
 ---
 
-<div class="home">
+<h3>About me</h3>
 
-  <p>Berlin based passionate self-taught Software Developer focused on both,
-    backend and frontend technologies (Python, PHP, Javascript).</p>
-  <p>I have a drive for clean, readable, testable, and well-documented code. Fast learner and
-    team player. You can check out some of my Github projects
-    <a href="{{ 'projects' | prepend: site.baseurl }}">here</a>.</p>
-  <p>My favourite working environment: Linux + Tmux + Vim.</p>
-  <p>How you can get in touch with me: <a href="{{ '/contact' | prepend: site.baseurl }}"">here.</a></p>
+<div class="intro">
+  <div class="text">
+    <p>
+      I am Product Manager and tech enthusiast with a decade of experience in
+      Software Development.
+    </p>
+    <p>
+      I have a background in Computer Networking and Programming, having worked
+      as a Software Developer for over ten years. I like building things people
+      can use, making a positive impact on their lives.
+    </p>
+    <p>
+      I am currently based in Berlin, Germany. I have an interest in EdTech,
+      CleanTech, HealthTech, FoodTech, Open Source Software, and shipping things
+      that matter.
+    </p>
+  </div>
 
-  <h1 class="page-heading">Posts</h1>
+  <img class="polaroid" src="/assets/dogtraining.jpg" />
+</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        </h2>
-        <a class="post-preview" href="{{ post.url }}" >
-          <div>
-            <img width="130px" src="{{ post.cover }}" />
-            <p>{{ post.description }}</p>
-          </div>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="description">
+  <img class="polaroid" src="/assets/bouldering.jpg" />
+  <div class="text">
+    <p>
+      I really enjoy bouldering and climbing, which helps me get a fresh
+      perspective on things. I spend a lot of time with my dogs in nature, as
+      well as teaching them tricks. Both activities, climbing and dog training,
+      involve a lot of problem solving and finding creative solutions which
+      relate in many ways to coding. Aditionally enjoy being in the kitchen,
+      trying out new recipes and baking all sorts of desserts.
+    </p>
+    <p>
+      You can find out more about projects and things I have worked on
+      <a href="{{ '/projects' | prepend: site.baseurl }}">here</a>.
+    </p>
+  </div>
+</div>
 
+<h3>Companies I worked at</h3>
+
+<div class="companies">
+  <img class="company" src="/assets/babbel.png" />
+  <img class="company" src="/assets/dcmn.png" />
+  <img class="company" src="/assets/learningdata.png" />
+  <img class="company" src="/assets/classis.jpeg" />
+</div>
+
+<h3>Contact</h3>
+
+<div class="contact">
+  <p>You can send me an <a href="mailto:me@mariusavram.com">email</a>.</p>
+  <p>
+    You can connect with me
+    <a target="_blank" href="https://ie.linkedin.com/in/mariusavram91"
+      >on Linkedin</a
+    >.
+  </p>
+  <p>
+    You can download my
+    <a target="_blank" href="/assets/Marius_Avram_PM-Resume.pdf">résumé</a>.
+  </p>
 </div>
