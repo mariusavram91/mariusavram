@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Creating a lightweight custom Vagrant box from scratch"
+title: Creating a lightweight custom Vagrant box from scratch
 permalink: /blog/:year/:month/:day/:title/
 date:   2015-05-20 08:00:00 -0700
 cover: /assets/posts/vagrant.jpg
-description: "Learn how to build your development environment in Virtualbox using Vagrant."
+description: Learn how to build your development environment in Virtualbox using Vagrant.
 tags: vagrant development
 ---
 

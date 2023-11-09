@@ -4,16 +4,18 @@ Personal website using Jekyll and Github Pages.
 
 Run:
 ```
-jekyll build
+bundle install
+bundle exec jekyll serve
 ```
 
-to build your site to ./_site, then run
-
+To create a post
 ```
-jekyll serve
+rake post title="" cover="" description=""
 ```
 
-to build your site any time a source file changes and serve it locally.
-
+To create a recipe
+```
+rake recipe title="" description=""
+```
 
 Copyright (c)2023 Marius Avram

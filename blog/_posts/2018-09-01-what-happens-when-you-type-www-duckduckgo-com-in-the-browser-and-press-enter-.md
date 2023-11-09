@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Person types duckduckgo.com in their browser, you won't believe what happens next"
+title: Person types duckduckgo.com in their browser, you won't believe what happens next
 permalink: /blog/:year/:month/:day/:title/
 date: 2018-09-01
 cover: /assets/posts/browser.jpg
-description: "What happens when you type duckduckgo.com in the browser and press Enter? Click here to find out!"
+description: What happens when you type duckduckgo.com in the browser and press Enter? Click here to find out!
 tags: computers internet http browser
 ---
 

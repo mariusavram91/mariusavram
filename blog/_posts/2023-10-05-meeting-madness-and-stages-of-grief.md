@@ -6,6 +6,7 @@ date:   2023-10-05 08:00:00 -0700
 cover: /assets/posts/meetings.jpg
 description: "How did we get here? How are meetings the first option? Why do they mostly suck?"
 tags: meetings work
+published: false
 ---
 
 

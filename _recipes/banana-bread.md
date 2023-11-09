@@ -1,8 +1,8 @@
 ---
 layout: recipe
-title: "Banana Bread"
+title: Banana Bread
 permalink: /recipes/:title/
-description: "How to easily make a fluffy and moist vegan banana bread"
+description: How to easily make a fluffy and moist vegan banana bread
 tags: dessert
 
 bananas: 250g
@@ -104,4 +104,5 @@ Let it cool completely before serving. Or just dig in! :)
 Enjoy!
 
 ![Banana Bread Before](/assets/recipes/banana_bread_before.jpg)
+
 ![Banana Bread After](/assets/recipes/banana_bread_after.jpg)

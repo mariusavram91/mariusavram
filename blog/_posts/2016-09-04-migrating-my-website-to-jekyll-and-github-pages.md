@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Migrating my website to Jekyll and Github Pages"
+title: Migrating my website to Jekyll and Github Pages
 permalink: /blog/:year/:month/:day/:title/
 date: 2016-09-04
 cover: /assets/posts/jekyll_github.jpg
-description: "How I migrated my website to Jekyll and Github Pages."
+description: How I migrated my website to Jekyll and Github Pages.
 tags: development update ruby jekyll github
 ---
 

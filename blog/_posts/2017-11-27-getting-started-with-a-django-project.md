@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Getting started with a Django project"
+title: Getting started with a Django project
 permalink: /blog/:year/:month/:day/:title/
 date: 2017-11-27
 cover: /assets/posts/django_project.jpg
-description: "How I start my Django projects, from installation to first page."
+description: How I start my Django projects, from installation to first page.
 tags: python development django
 ---
 

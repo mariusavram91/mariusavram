@@ -9,24 +9,53 @@ task :post do
 
     file = File.join(
         File.dirname(__FILE__),
-        '_posts',
-        slug + '.markdown'
+        'blog/_posts',
+        slug + '.md'
     )
 
     File.open(file, "w") do |f|
         f << <<-EOS.gsub(/^     /, '')
 ---
 layout: post
-title: "#{title}"
+title: #{title}
+permalink: /blog/:year/:month/:day/:title/
 date: #{Date.today}
 cover: /assets/posts/#{cover}.jpg
-description: "#{description}"
-categories:
+description: #{description}
+tags:
 published: false
 ---
 
         EOS
     end
 
-    system ("vim #{file}")
+    system ("open #{file}")
+end
+
+desc 'Create a new draft recipe'
+task :recipe do
+    title = ENV['title']
+    description = ENV['description']
+    slug = "#{title.downcase.gsub(/[^\w]+/, '-')}"
+
+    file = File.join(
+        File.dirname(__FILE__),
+        '_recipes',
+        slug + '.md'
+    )
+
+    File.open(file, "w") do |f|
+        f << <<-EOS.gsub(/^     /, '')
+---
+layout: recipe
+title: #{title}
+permalink: /recipes/:title/
+description: #{description}
+tags: 
+---
+
+        EOS
+    end
+
+    system ("open #{file}")
 end

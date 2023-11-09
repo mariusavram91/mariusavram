@@ -9,11 +9,11 @@ permalink: /recipes/
 <ul class="post-list">
   {% for recipe in site.recipes %}
   <li>
-    <h2>
+    <h4>
       <a class="post-link" href="{{ recipe.url | prepend: site.baseurl }}"
         >{{ recipe.title }} - {{ recipe.description }}</a
       >
-    </h2>
+    </h4>
   </li>
   {% endfor %}
 </ul>

@@ -22,22 +22,20 @@ layout: default
 
   <hr />
 
-  <h2>Related posts</h2>
+  <h2>Other posts</h2>
 
   <div class="post-nav">
     <div class="post-related-link previous">
       {% if page.previous.url %}
       <a href="{{ page.previous.url }}">
-        <i class="fa fa-arrow-left"></i> {{ page.previous.title }}
+        Previous: {{ page.previous.title }}
       </a>
       {% endif %}
     </div>
 
     <div class="post-related-link next">
       {% if page.next.url %}
-      <a href="{{ page.next.url }}">
-        {{ page.next.title }} <i class="fa fa-arrow-right"></i>
-      </a>
+      <a href="{{ page.next.url }}"> Next: {{ page.next.title }} </a>
       {% endif %}
     </div>
   </div>
