@@ -26,31 +26,14 @@
       /* header */
       .header {
         background: #c487d3;
-        min-height: 370px;
-        color: white;
-      }
-
-      .header-blog {
-        background: #c487d3;
         min-height: 60px;
         color: white;
       }
 
-      .header-blog .logo {
-        width: 60px;
-      }
-
-      .header-blog a{
-        display:flex;
+      .navigation {
+        display: flex;
         align-items: center;
-        text-decoration: none;
-      }
-
-      .header-blog .logo-name {
-        color: #fff;
-        font-weight: 600;
-        font-size: 40px;
-        padding: 5px 10px;
+        justify-content: space-between;
       }
 
       .hero {
@@ -121,6 +104,10 @@
 
       .text {
         padding: 5px 10px;
+      }
+
+      ul {
+        list-style-type: none;
       }
 
       /* footer */
@@ -284,6 +271,12 @@
         text-decoration-line: none;
         color: #fff;
         background-color: #6a257c;
+      }
+
+      .navigation-links a{
+        color: #fff;
+        font-weight: 600;
+        margin-left: 20px;
       }
 
       .footer a {

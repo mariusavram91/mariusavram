@@ -1,33 +1,10 @@
-{% if page.layout != 'post' and page.title != 'blog' %}
 <div class="header">
-  <a class="site-title" href="{{ site.baseurl }}/">
-    <img class="logo" src="/assets/logo.png" aria-label="Marius Avram Logo" />
-  </a>
-  <div class="hero">
-    <div class="hello">
-    <h1>Hello! I'm Marius.</h1>
-    <h2>Product Manager and Software Developer based in Berlin.</h2>
-    <a
-      class="button"
-      title="Email me"
-      target="_blank"
-      href="mailto:me@mariusavram.com"
-    >
-      Email me</a
-    >
-</div>
-    <img class="doodle" src="/assets/doodle.png" />
-
+  <div class="navigation">
+    <a class="site-title" href="{{ site.baseurl }}/">
+      <img class="logo" src="/assets/logo.png" aria-label="Marius Avram Logo" />
+    </a>
+    {% if page.category != 'home' %} {% include navigation_links.html %} {%
+    endif %}
   </div>
+  {% if page.category == 'home' %} {% include hero.html %} {% endif %}
 </div>
-{% else %}
-<div class="header-blog">
-  {% if page.layout == 'post' %} <a class="site-title" href="{{ "/blog/" |
-  prepend: site.baseurl }}"> {% else %}
-  <a class="site-title" href="{{ "/" | prepend: site.baseurl }}">
-    {% endif %}
-    <img class="logo" src="/assets/logo.png" />
-    <span class="i-big icon-back">
-  </a>
-</div>
-{% endif %}
