@@ -22,6 +22,8 @@ nutmeg: 1/4 tsp.
 
 An easy, moist, and fluffy (plant-based) banana bread recipe.
 
+---
+
 ## Ingredients
 
 ### Wet Mix
@@ -67,6 +69,8 @@ An easy, moist, and fluffy (plant-based) banana bread recipe.
 
 **Total time:** Under 2 hours
 
+---
+
 ## Instructions
 
 ### Wet mixture
@@ -103,6 +107,7 @@ Let it cool completely before serving. Or just dig in! :)
 
 Enjoy!
 
-![Banana Bread Before](/assets/recipes/banana_bread_before.jpg)
+---
 
-![Banana Bread After](/assets/recipes/banana_bread_after.jpg)
+![Banana Bread Before](/assets/recipes/banana_bread_before.jpg){:class="recipe-photo"}
+![Banana Bread After](/assets/recipes/banana_bread_after.jpg){:class="recipe-photo"}

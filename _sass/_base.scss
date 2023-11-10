@@ -112,6 +112,11 @@
 
       ul {
         list-style-type: none;
+        padding-left: 0;
+      }
+
+      ol {
+        padding-left: 25px;
       }
 
       /* footer */
@@ -179,6 +184,11 @@
       img {
         width: 100%;
         max-width: 800px;
+        border-radius: 1%;
+      }
+
+      .recipe-photo {
+        max-width: 540px;
       }
 
       /* headings */
@@ -298,14 +308,18 @@
         width: 50px;
       }
 
-      /*@media (prefers-color-scheme: dark) {
-      .header {
-        background: #000;
-        color: #fff;
+      .back-to-top {
+        text-align: right;
       }
 
-      .doodle {
-        -webkit-filter: invert(1);
-   filter: invert(1);
-      }
-    }*/
+      /*@media (prefers-color-scheme: dark) {
+        .header {
+          background: #000;
+          color: #fff;
+        }
+
+        .doodle {
+          -webkit-filter: invert(1);
+          filter: invert(1);
+        }
+      }*/
