@@ -4,16 +4,16 @@ title: Recipes
 permalink: /recipes/
 ---
 
-### Recipes
+# Recipes
 
 <ul class="post-list">
   {% for recipe in site.recipes %}
   <li>
-    <h4>
+    <strong>
       <a class="post-link" href="{{ recipe.url | prepend: site.baseurl }}"
         >{{ recipe.title }} - {{ recipe.description }}</a
       >
-    </h4>
+    </strong>
   </li>
   {% endfor %}
 </ul>

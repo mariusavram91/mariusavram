@@ -54,6 +54,8 @@ description: #{description}
 tags: 
 ---
 
+#### Ingredients
+
         EOS
     end
 

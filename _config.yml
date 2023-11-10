@@ -3,7 +3,10 @@ title               : Marius Avram
 description         : > 
                       Marius Avram - Product Manager and tech enthusiast with a decade of experience in Software Development.
 url                 : "https://mariusavram.com"
+
 resume              : /assets/Marius_Avram_PM-Resume.pdf
+
+
 
 github_username     : mariusavram91
 linkedin_username   : mariusavram91
@@ -19,3 +22,16 @@ defaults            :
       path          : ""
     values          :
       layout        : "default"
+
+plugins             :
+  - jekyll-sitemap
+
+defaults            :
+  -
+    scope           :
+      path          : "assets/**/*.pdf"
+    values          :
+      sitemap       : false
+
+robots_txt          : >-
+  User-agent: *

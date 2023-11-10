@@ -22,9 +22,9 @@ nutmeg: 1/4 tsp.
 
 An easy, moist, and fluffy (plant-based) banana bread recipe.
 
-#### Ingredients
+## Ingredients
 
-##### Wet Mix
+### Wet Mix
 
 - [] Bananas (peeled) - {{ page.bananas}}
 - [] Soy milk (substitute with other plant-based milk) - {{ page.milk}}
@@ -33,7 +33,7 @@ An easy, moist, and fluffy (plant-based) banana bread recipe.
 - [] Sugar - {{ page.sugar }}
 - [] Vinegar (substitute with lemon juice) - {{ page.acid }}
 
-##### Dry Mix
+### Dry Mix
 
 - [] All-purpose flour - {{ page.flour }}
 - [] Cornstarch (substitute with flour) - {{ page.cornstarch }}
@@ -43,14 +43,14 @@ An easy, moist, and fluffy (plant-based) banana bread recipe.
 - [] Cinnamon - {{ page.cinnamon }}
 - [] Nutmeg - {{ page.nutmeg}} (optional)
 
-##### Toppings and extra
+### Toppings and extra
 
 - [] Walnuts
 - [] Banana chips
 - [] Banana
 - [] Non-stick spray or oil and a tablespoon of flour
 
-##### Tools and equipment
+### Tools and equipment
 
 - A 30cm baking loaf pan
 - A teaspoon and a tablespoon
@@ -67,9 +67,9 @@ An easy, moist, and fluffy (plant-based) banana bread recipe.
 
 **Total time:** Under 2 hours
 
-#### Instructions
+## Instructions
 
-##### Wet mixture
+### Wet mixture
 
 1. We'll start by mixing the wet ingredients. Add {{ page.milk }} of **milk** into a blender or a big (1L or more) cup, then add {{ page.acid }} of **vinegar or lemon juice** to the milk, mix it, and let it sit for 5 minutes.
 2. While you wait for the milk to become buttermilk, peel bananas and take {{ page.bananas }} of **peeled bananas**, then add it to the buttermilk mix.
@@ -78,21 +78,21 @@ An easy, moist, and fluffy (plant-based) banana bread recipe.
 
 Start the oven at **170 degrees Celsius, top and bottom**.
 
-##### Dry mixture
+### Dry mixture
 
 1. Sift {{ page.flour }} of **all-purpose flour**, {{ page.cornstarch }} of **cornstarch**, {{ page.bakingpowder }} of **baking powder**, {{ page.bakingsoda }} of **baking soda**, and {{ page.cinnamon }} of **cinnamon** in the big mixing bowl.
 2. Optionally add {{ page.nutmeg }} of **nutmeg** to the dry mix. Then, use a **whisk to mix everything well**.
 
 Take a **30cm baking loaf pan and spray with some non-stick spray**, or use some oil to coat it. Then, cover the inside of the pan with flour. Leave it aside.
 
-##### Batter
+### Batter
 
 4.  **Pour the blended mix over your dry mixture** and use a rubber spatula to mix everything slowly. **Don't overmix**, or you'll develop too much gluten, resulting in dense and deflated cake. Try to break apart any flour lumps and stop when you cannot see any more dry ingredients. _That is why we blended the other ingredients separately._
 5.  Pour the batter into the prepared loaf pan. _Tap the pan gently against the counter to get a nice cake texture by removing the air bubbles (which make the cake drier)._
 
 It's time to add whatever **toppings** you want. Chop some walnuts and/or banana chips and spread them gently on top of the batter.
 
-##### Baking
+### Baking
 
 1.  Place the pan in the preheated oven, **lower middle rack**. _Leave enough space on top of the pan so toppings don't burn._
 2.  Set a timer for **50 minutes**.

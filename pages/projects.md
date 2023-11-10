@@ -3,19 +3,19 @@ title: Projects
 permalink: /projects/
 ---
 
-### Projects
+# Projects
 
 Here you can find some projects I have worked on. You can download my [**résumé**]({{site.resume}}){:target="_blank"} or see my code on [**Github**](https://github.com/mariusavram91){:target="_blank"}.
 
-#### Technologies I have used
+## Technologies I have used
 
 Python (Django, Flask), PHP (Zend), Ruby (Ruby on Rails), MySQL & PostgreSQL, HTML/CSS/Javascript, ReactJS, Apache, Ansible, Heroku, Azure, Git.
 
-#### Methodologies I have used
+## Methodologies I have used
 
 Agile (Kanban and Scrum), ShapeUp, TDD, CI/CD.
 
-#### Companies I worked for
+## Companies I worked for
 
 ![Babbel](/assets/babbel.png){:class="company"}
 ![DCMN](/assets/dcmn.png){:class="company"}
@@ -24,9 +24,9 @@ Agile (Kanban and Scrum), ShapeUp, TDD, CI/CD.
 
 ---
 
-#### MakeYourMaps & Sync (CareerFoundry Product Management Course) | 2023 | [Github](https://github.com/mariusavram91/cf-pm){:target="_blank"}
+## MakeYourMaps & Sync (CareerFoundry Product Management Course) | 2023 | [Github](https://github.com/mariusavram91/cf-pm){:target="_blank"}
 
-##### MakeYourMaps
+### MakeYourMaps
 
 ![MakeYourMaps](/assets/projects/makeyourmaps.png){:class="project"}
 
@@ -38,7 +38,7 @@ GoogleMaps-like product.
   
 * Roadmapping. Solution Ideation and Success Measurements. User Stories.
 
-##### Sync
+### Sync
 
 ![Sync](/assets/projects/sync.png){:class="project"}
 
@@ -52,9 +52,9 @@ Video Conferencing product.
 
 * Team Alignment and Conflict Resolution.
 
-#### Babbel
+## Babbel
 
-##### **[Babbel Travel](https://travel.babbel.com){:target="_blank"}** | 2019 - 2021
+### **[Babbel Travel](https://travel.babbel.com){:target="_blank"}** | 2019 - 2021
 
 ![Babbel Travel](/assets/projects/babbel-travel.png){:class="project"}
 
@@ -69,13 +69,13 @@ features for the Language Travel platform.
 
 * Presented product updates at company-wide updates meetings.
 
-##### **Babbel Guide** | 2021
+### **Babbel Guide** | 2021
 
 Babbel's Guide for learning Languages
 
 * Worked within a team on the Discovery and Ideation of a Guide Platform for language learners.
 
-##### **[Babbel Live](https://live.babbel.com){:target="_blank"}** | 2021 - 2022
+### **[Babbel Live](https://live.babbel.com){:target="_blank"}** | 2021 - 2022
 
 ![Babbel Live](/assets/projects/babbel-live.png){:class="project"}
 
@@ -87,9 +87,9 @@ Babbel's Guide for learning Languages
 
 * Attended User Interviews during the Discovery process.
 
-#### DCMN
+## DCMN
 
-##### **[DCMN TV and Mobile Analytics Tool](https://dcanalytics.dcmn.com/){:target="_blank"}** | 2016 - 2017
+### **[DCMN TV and Mobile Analytics Tool](https://dcanalytics.dcmn.com/){:target="_blank"}** | 2016 - 2017
 
 ![DC Analytics](/assets/projects/dc-analytics.png){:class="project"}
 
@@ -99,7 +99,7 @@ Offline (TV) and Online (Mobile) analytics service.
 
 * Used ReactJS and Less on the frontend side of the TV Analytics tool.
 
-##### **DCMN DSP** | 2017 - 2018
+### **DCMN DSP** | 2017 - 2018
 
 The Demand-Side Platform consisted of many Go microservices and a Rails backend + frontend. Management of add with rogrammatic advertising, real-time bidding, rich media ads, etc.
 
@@ -111,9 +111,9 @@ The Demand-Side Platform consisted of many Go microservices and a Rails backend 
 
 * Delivered interactive ads compatibility feature for our DSP platform.
 
-#### Kimera
+## Kimera
 
-##### **[Python Jobs Ireland](http://pythonjobs.ie){:target="_blank"}** | 2015 - 2016 | [Github](https://github.com/kimeraapp/pythonjobs.ie){:target="_blank"}
+### **[Python Jobs Ireland](http://pythonjobs.ie){:target="_blank"}** | 2015 - 2016 | [Github](https://github.com/kimeraapp/pythonjobs.ie){:target="_blank"}
 
 ![pythonjobs.ie](/assets/projects/pythonjobs.png){:class="project"}
 
@@ -123,9 +123,9 @@ An Open Source jobs board for Python, the programmming language, exclusive to Ir
 
 * It was a success among the Python community in Dublin and during the Pycon Ireland 2015 Sprints we had a few external pull requests.
 
-#### ClassIS | LearningData
+## ClassIS | LearningData
 
-##### **Classis** | 2013 - 2016 | [Github](https://github.com/LearningData/class){:target="_blank"}
+### **Classis** | 2013 - 2016 | [Github](https://github.com/LearningData/class){:target="_blank"}
 
 ![classis](/assets/projects/classis.jpg){:class="project"}
 
@@ -147,7 +147,7 @@ It is a complete student tracking, reporting, and information management. A diff
 
 * Successfuly migrated our servers to Azure and managed them. Added monitorisation and automatisation which improved our efficiency and downtimes significantly.
 
-##### **Classis Ansible**  | 2016 | [Github](https://github.com/LearningData/classis-ansible){:target="_blank"}
+### **Classis Ansible**  | 2016 | [Github](https://github.com/LearningData/classis-ansible){:target="_blank"}
 
 ![classisansible](/assets/projects/classis_ansible.jpg){:class="project"}
 
@@ -155,7 +155,7 @@ Ansible recipe written for automatisation of Classis.
 
 * Implemented to improve the efficiency and speed of the development process.
 
-##### **Classis API** | 2016
+### **Classis API** | 2016
 
 ![classisapi](/assets/projects/classis_api.jpg){:class="project"}
 
@@ -163,11 +163,11 @@ A REST API written using Flask Python framework and its web client written in Ja
 
 * Designed and built a REST API for the Teacher Portal using the Flask framework (Python) for integration with other systems, which decreased the time for manual export by 50%.
 
-##### **Classic** | 2014-2015
+### **Classic** | 2014-2015
 
 * Mantained and added a few new features to a School Parent Portal written in PHP using the ELGG framework.
 
-##### **[Schoolbag](https://schoolbag.ie){:target="_blank"}** | 2014 - 2016
+### **[Schoolbag](https://schoolbag.ie){:target="_blank"}** | 2014 - 2016
 
 ![schoolbag](/assets/projects/schoolbag.jpg){:class="project"}
 
@@ -179,63 +179,63 @@ An e-diary application for teachers, students and parents built using Phalcon PH
 
 ---
 
-#### Random
+## Random
 
-##### **python_collection** | 2018 | [Github](https://github.com/mariusavram91/python_collection){:target="_blank"}
+### **python_collection** | 2018 | [Github](https://github.com/mariusavram91/python_collection){:target="_blank"}
 
 A collection of python scripts exercises.
 
-##### **devicedetection** | 2019 | [api Github](https://github.com/mariusavram91/devicedetection_api){:target="_blank"} [frontend Github](https://github.com/mariusavram91/devicedetection_frontend){:target="_blank"}
+### **devicedetection** | 2019 | [api Github](https://github.com/mariusavram91/devicedetection_api){:target="_blank"} [frontend Github](https://github.com/mariusavram91/devicedetection_frontend){:target="_blank"}
 
 REST API using Lumen PHP microframework for Device Type and OS detection and ReactJS for client.
 
-##### **whatsapp_parser** | 2018 | [Github](https://github.com/mariusavram91/whatsapp_parser){:target="_blank"}
+### **whatsapp_parser** | 2018 | [Github](https://github.com/mariusavram91/whatsapp_parser){:target="_blank"}
 
 Parser for Whatsapp exports. Jupyter Notebook and matplotlib graphs for whatsapp stats: [Github](https://github.com/mariusavram91/whatsapp_stats).
 
-##### **pokestats** | 2018 | [Github](https://github.com/mariusavram91/pokestats){:target="_blank"}
+### **pokestats** | 2018 | [Github](https://github.com/mariusavram91/pokestats){:target="_blank"}
 
 Command line tool for PokeAPI stats.
 
-##### **magicsquare** | 2018 | [Github](https://github.com/mariusavram91/magicsquare){:target="_blank"}
+### **magicsquare** | 2018 | [Github](https://github.com/mariusavram91/magicsquare){:target="_blank"}
 
 Script that builds Magic Squares with dimension n*n, where n is an odd positive integer.
 
-##### **restaurants_api** | 2018 | [Github](https://github.com/mariusavram91/restaurants_api){:target="_blank"}
+### **restaurants_api** | 2018 | [Github](https://github.com/mariusavram91/restaurants_api){:target="_blank"}
 
 REST API for restaurants using Django REST Framework.
 
-##### **trees** | 2018 | [Github](https://github.com/mariusavram91/trees){:target="_blank"}
+### **trees** | 2018 | [Github](https://github.com/mariusavram91/trees){:target="_blank"}
 
 A simple Python script for POST requests only using the standard library.
 
-##### **python_cv** | 2018 | [Github](https://github.com/mariusavram91/python_cv){:target="_blank"}
+### **python_cv** | 2018 | [Github](https://github.com/mariusavram91/python_cv){:target="_blank"}
 
 A Python script to generate a CV and cover letter.
 
-##### **htmltopdf** | 2016 | [Github](https://github.com/mariusavram91/htmltopdf){:target="_blank"}
+### **htmltopdf** | 2016 | [Github](https://github.com/mariusavram91/htmltopdf){:target="_blank"}
 
 A small API to convert a URL to a PDF file and download it. Written using Flask Python framework and deployed to Heroku through Travis CI.
 
-##### **dotfiles** | 2016 - Present | [Github](https://github.com/mariusavram91/dotfiles){:target="_blank"}
+### **dotfiles** | 2016 - Present | [Github](https://github.com/mariusavram91/dotfiles){:target="_blank"}
 
 My customised dotfiles (tmux, vimrc, zshrc).
 
 ---
 
-#### **School Internships Management System** | 2012
+## **School Internships Management System** | 2012
 
 A management system for the students' internships. It was built in PHP with IIS web server and MySQL for the database.
 
 * Designed the frontend, the architecture and wrote the backend code in a team of four.
 
-#### Websites
+## Websites
 
-##### **[Personal Website](https://mariusavram.com){:target="_blank"}**  | 2016 - Present | [Github](https://github.com/mariusavram91/mariusavram){:target="_blank"}
+### **[Personal Website](https://mariusavram.com){:target="_blank"}**  | 2016 - Present | [Github](https://github.com/mariusavram91/mariusavram){:target="_blank"}
 
 Personal website, mariusavram.com. Built in Jekyll and deployed to Github Pages.
 
-##### **[El Mundo en mi Cocina](https://elmundoenmicocina.es){:target="_blank"}**  | 2016 - 2019 | [Github](https://github.com/mariusavram91/elmundoenmicocina){:target="_blank"}
+### **[El Mundo en mi Cocina](https://elmundoenmicocina.es){:target="_blank"}**  | 2016 - 2019 | [Github](https://github.com/mariusavram91/elmundoenmicocina){:target="_blank"}
 
 ![elmundoenmicocina.es](/assets/projects/elmundoenmicocina_web.jpg){:class="project"}
 
@@ -245,13 +245,13 @@ Mum's recipes website, elmundoenmicocina.es, for desserts around the world. Buil
 
 Follow her [instagram](https://instagram.com/elmundoenmicocina){:target="_blank"} to see her latest recipes.
 
-##### **[Magneto Producciones](https://www.magnetoproducciones.com){:target="_blank"}**  | 2012
+### **[Magneto Producciones](https://www.magnetoproducciones.com){:target="_blank"}**  | 2012
 
 Corporate website for Magneto Producciones. Participated in a team of three writing frontend code.
 
 ---
 
-#### Volunteering and additional experience
+## Volunteering and additional experience
 
 * Taught children programming (HTML, CSS, Javascript, Python, Scratch) during a year at a local Coder Dojo in a Youth Club (Coder Dojo SWICN).
 

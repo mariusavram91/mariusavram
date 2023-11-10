@@ -14,13 +14,13 @@ tags: computers internet http browser
 
 The browser requests files via [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) (Hypertext Transfer Protocol) from the server, then the server accepts the request and always sends a response back to the browser via HTTP, at least will send an error message. Resources such as HTML documents are fetched and sent over. A [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) (Transmission Control Protocol) connection must be established first. Usually a browser is the one that initiates a request.
 
-# DNS Lookup
+## DNS Lookup
 
 The browser sends a request to a [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) (Domain Name System) to look up the domain *duckduckgo.com* and get back the [IP address](https://en.wikipedia.org/wiki/IP_address) (Internet Protocol address, a numerical label assigned to each device connected to a network) for that domain. In this case *176.34.155.23* is returned to the browser.
 
 DNS is just a key/value lookup for domain names and their IP addresses, it’s like the contact list from your phone, which links names to phone numbers.
 
-# TCP
+## TCP
 
 A connection is established through TCP on *port 80*, at which point, a request can be sent to the server over HTTP.
 
@@ -30,7 +30,7 @@ A TCP connection must be established before a server-client exchange can happen.
 
 HTTP is stateless as there is no direct connection between successive requests. That’s why cookies are used, they allow having a session for the requests, they allow having a session for the requests to share a context. For instance, that’s how the server knows each request is from the same client, there’s a session id linking all the requests.
 
-# HTTP Request
+## HTTP Request
 
 This request will be a message indicating the wanted action for the resource that needs to be fetched.
 
@@ -48,13 +48,13 @@ The request will have a method (*GET, POST, DELETE*), which is what kind of acti
 
 There are other components in between the server and the browser, multiple layers that can perform different functions and are usually called proxies: authentication, caching, load balancing, etc. There could also be a CDN, which serves static assets faster by being distributed servers around the world. The assets will be served from a shorter distance rather than the original server.
 
-# Web server
+## Web server
 
 The message will be encoded and sent over to the DuckDuckGo web server, which looks up and prepares the resource needed for the response.
 
 The web server stores software and files (HTML, CSS, Javascript, images, etc.). The software, HTTP server, controls how these files are accessed by users through requests. It understands URLs (addresses) and HTTP (protocol).
 
-# Web application
+## Web application
 
 At this point a web application could query a database or cache might help avoid that, and will generate data for the response, which is sent back.
 
@@ -64,7 +64,7 @@ A server can serve static or dynamic content. Static is served “as-is” while
 
 There will be some caching for common queries to avoid extra computation. There might be job queries, which run actions asynchronously.
 
-# HTTP Response
+## HTTP Response
 
 The response is received by the browser. It starts rendering the page and might ask a [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) (Content Delivery Network) for stylesheets, images, etc.
 
@@ -78,7 +78,7 @@ Status codes and messages ([rfc7231](https://tools.ietf.org/html/rfc7231#section
 * **4xx**: client errors. *400 Bad request, 401 Unauthorized, 403 Forbidden, 404 Not found*
 * **5xx**: server errors. *500 Internal Server Error, 502 Bad Gateway, 503 Service Unavailable*
 
-# Rendering
+## Rendering
 
 The web browser is a user-agent, a tool performing actions for the end user. An HTML document is fetched and parsed, then all the additional assets, like scripts, stylesheets, and other content, images for instance.
 
