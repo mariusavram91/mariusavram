@@ -1,7 +1,7 @@
 # Site settings
 title               : Marius Avram
 description         : > 
-                      Marius Avram - Product Manager and tech enthusiast with a decade of experience in Software Development.
+                      Product Manager and tech enthusiast with a decade of experience in Software Development.
 url                 : "https://mariusavram.com"
 
 resume              : /assets/Marius_Avram_PM-Resume.pdf
@@ -25,6 +25,7 @@ defaults            :
 
 plugins             :
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 defaults            :
   -

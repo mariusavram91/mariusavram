@@ -1,5 +1,7 @@
 ---
+layout: default
 title: Projects
+description: Projects, scripts, experience, and stuff in general I worked on. Software Development, Product Management, Volunteering, Experiments.
 permalink: /projects/
 ---
 

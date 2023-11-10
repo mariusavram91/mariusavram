@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Blog
+description: I write about stuff like software development, product management, dog training, cooking, climbing, etc.
 permalink: /blog/
 ---
 

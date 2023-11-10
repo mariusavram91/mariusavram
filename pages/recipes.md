@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Recipes
+description: Some plant based recipes I make often
 permalink: /recipes/
 ---
 
