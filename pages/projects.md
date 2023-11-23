@@ -17,10 +17,11 @@ Python (Django, Flask), PHP (Zend), Ruby (Ruby on Rails), MySQL & PostgreSQL, HT
 
 Agile (Kanban and Scrum), ShapeUp, TDD, CI/CD.
 
-## Companies I worked for
+## Companies I worked for (in reverse chronological order)
 
 ![Babbel](/assets/babbel.png){:class="company"}
 ![DCMN](/assets/dcmn.png){:class="company"}
+![Kimera](/assets/kimera.jpeg){:class="company"}
 ![LearningData](/assets/learningdata.png){:class="company"}
 ![ClassIS](/assets/classis.jpeg){:class="company"}
 
