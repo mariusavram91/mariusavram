@@ -166,4 +166,6 @@ In a week, my site using Jekyll and Github Pages was available and I am quite ha
 
 You can see the source code in [my Github repository](https://github.com/mariusavram91/mariusavram){:target="_blank"}.
 
+---
+
 Thanks to Jekyll for the logos, [jekyll](https://jekyllrb.com/img/logo-2x.png){:target="_blank"} and [octojekyll](https://jekyllrb.com/img/octojekyll.png){:target="_blank"}, I have put them together using [Gimp](http://www.gimp.org){:target="_blank"} for the post’s cover.

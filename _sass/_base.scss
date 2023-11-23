@@ -134,12 +134,12 @@
         padding-left: 0;
       }
 
-      ul {
+      .recipe-content > ul {
         list-style-type: none;
         padding-left: 0;
       }
 
-      ol {
+      .recipe-content > ol {
         padding-left: 25px;
       }
 
@@ -376,3 +376,21 @@
           filter: invert(1);
         }
       }*/
+
+      /* code */
+      .highlighter-rouge {
+        max-width: 960px;
+      }
+
+      pre.highlight {
+        white-space: pre;
+        overflow-x: scroll;
+        background-color: #e2cde7;
+      }
+
+            /* Responsive layout */
+      @media (max-width: 820px) {
+      .highlighter-rouge {
+        max-width: 560px;
+      }
+      }

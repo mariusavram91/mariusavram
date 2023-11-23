@@ -8,7 +8,7 @@ description: What happens when you type duckduckgo.com in the browser and press 
 tags: computers internet http browser
 ---
 
-**duckduckgo.com** is typed in the [URL](https://en.wikipedia.org/wiki/URL) (Uniform Resource Locator or web address) bar and the Enter key is pressed.
+**duckduckgo.com** is typed in the [URL](https://en.wikipedia.org/wiki/URL) (Uniform Resource Locator or web address) bar and the Enter key is pressed. What happens next?
 
 ![HTTP flow](/assets/posts/http_flow.jpg)
 
