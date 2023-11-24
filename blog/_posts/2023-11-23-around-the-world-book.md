@@ -4,7 +4,7 @@ title: "The 'around-the-world-book' experiment"
 permalink: /blog/:year/:month/:day/:title/
 date:   2023-11-23 08:00:00 -0700
 cover: /assets/posts/2023_11_around_the_world_book/aroundtheworldbook.jpg
-description: "Over the years I left books in airports and train stations to see how far they travel"
+description: "Over the years I left books in airports and train stations to see how far they travel, an experiment that failed"
 tags: experiment arountheworldbook
 ---
 
@@ -24,12 +24,12 @@ Here is an incomplete list of books I left in public places over the years for p
 
 | Book                                                         | Date       | Place                       |
 | ------------------------------------------------------------ | ---------- | --------------------------- |
-| [Good Omens](https://www.goodreads.com/book/show/12067.Good_Omens) | 11/10/2016 | Barajas Airport, Madrid     |
-| [Remote](https://www.goodreads.com/book/show/17316682-remote) | 11/10/2016 | Barajas Airport, Madrid     |
-| [Elon Musk](https://www.goodreads.com/book/show/25541028-elon-musk) | 07/11/2016 | Dublin Airport, Dublin      |
-| [The Time Machine](https://www.goodreads.com/book/show/2493.The_Time_Machine) | 27/11/2016 | Berlin Hauptbahnhof, Berlin |
-| [Of Mice and Men](https://www.goodreads.com/book/show/890.Of_Mice_and_Men) | 31/10/2018 | Schönefeld Airport, Berlin  |
-| [Around the World in 80 Days](https://www.goodreads.com/book/show/54479.Around_the_World_in_Eighty_Days) | 05/05/2019 | Shanghai, China *by post |
+| [Good Omens](https://www.goodreads.com/book/show/12067.Good_Omens){:target="_blank"} | 11/10/2016 | Barajas Airport, Madrid     |
+| [Remote](https://www.goodreads.com/book/show/17316682-remote){:target="_blank"} | 11/10/2016 | Barajas Airport, Madrid     |
+| [Elon Musk](https://www.goodreads.com/book/show/25541028-elon-musk){:target="_blank"} | 07/11/2016 | Dublin Airport, Dublin      |
+| [The Time Machine](https://www.goodreads.com/book/show/2493.The_Time_Machine){:target="_blank"} | 27/11/2016 | Berlin Hauptbahnhof, Berlin |
+| [Of Mice and Men](https://www.goodreads.com/book/show/890.Of_Mice_and_Men){:target="_blank"} | 31/10/2018 | Schönefeld Airport, Berlin  |
+| [Around the World in 80 Days](https://www.goodreads.com/book/show/54479.Around_the_World_in_Eighty_Days){:target="_blank"} | 05/05/2019 | Shanghai, China *by post |
 
 I tried tweaking the experiment a bit by focusing on one single book - and which better book than "Around the World in 80 Days" by Jules Verne - which I would send by post to someone, who would send it to someone else, and so on, causing a chain reacting. The goal was the same: seeing how far the book gets. This version also failed; the first location was Shanghai, but the book never arrived.
 

@@ -134,6 +134,11 @@
         padding-left: 0;
       }
 
+      .post-content img {
+        width: auto !important;
+        max-width: 90% !important;
+      }
+
       .recipe-content > ul {
         list-style-type: none;
         padding-left: 0;
