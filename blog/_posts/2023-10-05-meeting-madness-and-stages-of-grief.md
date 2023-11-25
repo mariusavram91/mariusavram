@@ -44,7 +44,7 @@ I found myself in those meetings because I never questioned why that meeting is 
 
 And I was still the lucky one as a developer, some colleagues' calendars looked more like this:
 
-![Meetings Hell](/assets/posts/busy.png)
+![Meetings Hell](/assets/posts/busy.png){:loading="lazy"}
 
 In which case they had to put in extra time to get some work done. Sure, some of those meetings were necessary, some were productive. But how can you manage not crashing after a day or week like that?
 
@@ -58,7 +58,7 @@ Attention span is getting shorter and shorter, having long meetings is not going
 But now, the meeting went over time. But wait, a few people have to jump on another call or run to another meeting, while the meeting keeps going.
 If you constantly have very long meeting, something is wrong. Why not use Estimation Points for meetings as well, like developers do for tasks. Anything longer has to be broken down, there is only that much information we can absorb in one sitting.
 
-![Meetings](/assets/posts/doodle-meetings-1.jpg)
+![Meetings](/assets/posts/doodle-meetings-1.jpg){:loading="lazy"}
 
 There is a difference between in person meetings and conference calls. Zoom fatigue is real, it takes a lot of energy, you cannot move much, you are distracted by your own insecurities, looking at yourself (you cannot see yourself in the in person meetings). There are so many interruptions due to audio delay. etc.
 
@@ -94,7 +94,7 @@ And if you are organising a meeting ask yourself if it is really necessary. What
 
 They are also not very accessible (sometimes bad audio, no real time captioning, no asssistive listening device availability). Information and decisions should be available to all, in equally effective ways, at the same time. Some people with disabilities might not speak up, and it's not on them to request such things. Accessibility should be taken into account by default. If you're not sure what's needed, ask!
 
-![Async Communication](/assets/posts/doodle-meetings-2.jpg)
+![Async Communication](/assets/posts/doodle-meetings-2.jpg){:loading="lazy"}
 
 If you have **10 people** locked in a room or in a conference call **for 1 hour**, that is **10 hours that you are losing and not just 1 hour**. Now imagine you have an asynchronous meeting where you are writing down really well what you are trying to achieve, which might take you 30 minutes. Now someone can be prepared to give a proper answer, looking up some code and giving their opinion on it, might take 20 minutes. You go a bit back and forth, during a total of 40 minutes for example. Someone else sees the entire discussion and gives their opinion on it, maybe 10 minutes. A bit more back and forth, 1 hour in total, then a decision is reached. Things are clear to everyone, including people who might be out of the office or on vacation, etc. Information is all there, you can always go back, it's also harder to play the "I remember you saying this in the meeting" game. And it took maybe let's say 3 hours of everyone's time including reading time, even if it's more than that I assure it will be less than the total meeting time. Most importantly, you do not interrupt everyone's work flow, given how hard it is for some to get back to it. 
 

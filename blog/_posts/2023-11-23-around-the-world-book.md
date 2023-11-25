@@ -42,5 +42,5 @@ Thanks for reading!
 ---
 
 {:.recipe-photos}
-![Good Omens](/assets/posts/2023_11_around_the_world_book/goodomens.jpg)
-![Of Mice and Men](/assets/posts/2023_11_around_the_world_book/miceandmen.jpg)
+![Good Omens](/assets/posts/2023_11_around_the_world_book/goodomens.jpg){:loading="lazy"}
+![Of Mice and Men](/assets/posts/2023_11_around_the_world_book/miceandmen.jpg){:loading="lazy"}

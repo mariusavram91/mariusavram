@@ -10,7 +10,7 @@ tags: computers internet http browser
 
 **duckduckgo.com** is typed in the [URL](https://en.wikipedia.org/wiki/URL) (Uniform Resource Locator or web address) bar and the Enter key is pressed. What happens next?
 
-![HTTP flow](/assets/posts/http_flow.jpg)
+![HTTP flow](/assets/posts/http_flow.jpg){:loading="lazy"}
 
 The browser requests files via [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) (Hypertext Transfer Protocol) from the server, then the server accepts the request and always sends a response back to the browser via HTTP, at least will send an error message. Resources such as HTML documents are fetched and sent over. A [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) (Transmission Control Protocol) connection must be established first. Usually a browser is the one that initiates a request.
 

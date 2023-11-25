@@ -57,7 +57,7 @@ $ pip install django
 $ python -m django --version
 ```
 
-![Django Installation](/assets/posts/django_2017/0_django_installed.jpg)
+![Django Installation](/assets/posts/django_2017/0_django_installed.jpg){:loading="lazy"}
 
 ```bash
 $ pip freeze > requirements.txt
@@ -74,7 +74,7 @@ $ python manage.py migrate
 $ python manage.py runserver
 ```
 
-![Django Project initial structure](/assets/posts/django_2017/1_initial_structure.jpg)
+![Django Project initial structure](/assets/posts/django_2017/1_initial_structure.jpg){:loading="lazy"}
 
 ```bash
 $ python manage.py runserver 0:8000
@@ -82,7 +82,7 @@ $ python manage.py runserver 0:8000
 
 Then go to [http://localhost:8000](http://localhost:8000){:target="_blank"}.
 
-![Django Running migrations](/assets/posts/django_2017/2_running_migrations.jpg)
+![Django Running migrations](/assets/posts/django_2017/2_running_migrations.jpg){:loading="lazy"}
 
 ### Git
 
@@ -286,7 +286,7 @@ $ vim blog/templates/show.html
 $ python manage.py migrate
 $ python manage.py runserver
 ```
-![Django New model migration](/assets/posts/django_2017/4_new_model_migration.jpg)
+![Django New model migration](/assets/posts/django_2017/4_new_model_migration.jpg){:loading="lazy"}
 
 Then go to [http://localhost:8000](http://localhost:8000){:target="_blank"}.
 
@@ -304,7 +304,7 @@ class BlogAdmin(admin.ModelAdmin):
     pass
 ```
 
-![Django Admin with new Post model](/assets/posts/django_2017/5_django_admin_with_new_model.jpg)
+![Django Admin with new Post model](/assets/posts/django_2017/5_django_admin_with_new_model.jpg){:loading="lazy"}
 
 ```bash
 $ git commit -am "Add blog"

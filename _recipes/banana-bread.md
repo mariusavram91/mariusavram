@@ -110,5 +110,5 @@ Enjoy!
 ---
 
 {:.recipe-photos}
-![Banana Bread Before](/assets/recipes/banana_bread_before.jpg){:class="recipe-photo"}
-![Banana Bread After](/assets/recipes/banana_bread_after.jpg){:class="recipe-photo"}
+![Banana Bread Before](/assets/recipes/banana_bread_before.jpg){:class="recipe-photo"}{:loading="lazy"}
+![Banana Bread After](/assets/recipes/banana_bread_after.jpg){:class="recipe-photo"}{:loading="lazy"}
