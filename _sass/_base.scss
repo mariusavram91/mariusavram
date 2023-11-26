@@ -131,7 +131,16 @@
       }
 
       .post-list {
-        padding-left: 0;
+        padding-left: 20px;
+      }
+
+      .post-list li {
+        margin-bottom: 15px;
+      }
+
+      .post-meta {
+        color: gray;
+        font-size: 0.8em;
       }
 
       .post-content img {
@@ -146,6 +155,11 @@
 
       .recipe-content > ol {
         padding-left: 25px;
+      }
+
+      iframe {
+        width: 90%;
+        height: auto;
       }
 
       /* footer */
