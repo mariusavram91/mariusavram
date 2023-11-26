@@ -43,4 +43,4 @@ It might not seem much, but the tiniest hint of progress helps tremendously with
 
 And it feels great!
 
-![Marius Bouldering One of the Last Sessions](/assets/posts/2023_11_joy_of_bouldering/bouldering.gif){:loading="lazy"}
+![Marius Bouldering One of the Last Sessions](/assets/posts/2023_11_joy_of_bouldering/Marius_Avram_bouldering.gif){:loading="lazy"}

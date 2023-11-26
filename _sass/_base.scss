@@ -67,6 +67,13 @@
         align-self: center;
       }
 
+      /* Responsive layout */
+      @media (max-width: 420px) {
+        .content {
+          max-width: 350px;
+        }
+      }
+
       .center {
         text-align: center;
       }
@@ -421,3 +428,10 @@
           padding: 20px 5%;
         }
     }
+
+      /* Responsive layout */
+      @media (max-width: 420px) {
+      .highlighter-rouge {
+        max-width: 360px;
+      }
+      }
