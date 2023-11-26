@@ -12,6 +12,10 @@ layout: default
 
   <hr />
 
+  {% if page.footnote %}
+  <p class="post-meta">{{ page.footnote }}</p>
+  {% endif %}
+
   <p class="post-meta">
     Posted on
     <time
@@ -24,20 +28,20 @@ layout: default
     >{% endif %}
   </p>
 
-  <h2>Other posts</h2>
-
   <div class="post-nav">
     <div class="post-related-link previous">
       {% if page.previous.url %}
       <a href="{{ page.previous.url }}">
-        Previous: {{ page.previous.title }}
+        <strong>Previous article:</strong> {{ page.previous.title }}
       </a>
       {% endif %}
     </div>
 
     <div class="post-related-link next">
       {% if page.next.url %}
-      <a href="{{ page.next.url }}"> Next: {{ page.next.title }} </a>
+      <a href="{{ page.next.url }}">
+        <strong>Next article:</strong> {{ page.next.title }}
+      </a>
       {% endif %}
     </div>
   </div>

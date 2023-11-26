@@ -37,10 +37,6 @@ I haven't given up yet, and I want to restart the experiment, see what I can cha
 
 If you want to receive a book as part of this Around the World Book Experiment [send me an email](mailto:me@mariusavram.com). 
 
-Thanks for reading!
-
----
-
 {:.recipe-photos}
 ![Good Omens](/assets/posts/2023_11_around_the_world_book/goodomens.jpg){:loading="lazy"}
 ![Of Mice and Men](/assets/posts/2023_11_around_the_world_book/miceandmen.jpg){:loading="lazy"}

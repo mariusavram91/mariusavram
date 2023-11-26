@@ -63,5 +63,3 @@ Now you have your SVG logo ready to use.
 Here's the SVG logo.
 
 ![Rocket Launch Logo](/assets/posts/2023_11_krita_logo/Rocket_Launch_Logo.svg){:loading="lazy"}
-
-Thanks for reading!

@@ -6,6 +6,7 @@ date:   2023-10-05 08:00:00 -0700
 cover: /assets/posts/meetings.jpg
 description: "How did we get here? How are meetings the first option? Why do they mostly suck?"
 tags: meetings work
+footnote: Thanks to PollyDot on pixabay.com for the original article image.
 ---
 
 
@@ -158,9 +159,4 @@ If you get anything out of this I hope it's useful to you and you can put some o
 * Document them!
 
 
-Thank you for reading! "Bloop bloop", I'm out!
-
----
-
-Thanks to [PollyDot](https://pixabay.com/photos/king-penguins-birds-animals-384252/){:target="_blank"} for the original article image.
-
+"Bloop bloop", I'm out!

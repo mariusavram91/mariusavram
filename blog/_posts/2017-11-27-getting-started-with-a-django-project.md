@@ -310,4 +310,4 @@ class BlogAdmin(admin.ModelAdmin):
 $ git commit -am "Add blog"
 ```
 
-Thank you for reading!
+And that's all! Check out the Django documentation for more.

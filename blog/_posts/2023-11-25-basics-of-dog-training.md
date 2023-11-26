@@ -5,6 +5,7 @@ permalink: /blog/:year/:month/:day/:title/
 date:   2023-11-25 08:00:00
 cover: /assets/posts/2023_11_dog_training/dog_training.jpg
 description: "Some basic and foundational knowledge for dog training to strengthen the bond between you and your dog and to cultivate good behaviour in your furry companion."
+footnote: No dogs were harmed in the making of these GIFs. The boxing GIF actually refers to the early stages of the "Who is your best friend" trick.
 tags: dog training
 ---
 
@@ -89,7 +90,7 @@ One of the first things I'd recommend is to work on leaving the dog alone from t
 
 My two favourite tricks to work on with my dog were Hold and Tongue; they took a lot of work, and he made me very proud. Mio will hold anything I give him in his mouth until I release him. He will also show me the tip of his tongue on command.
 
-Thanks for reading, and happy training!
+Happy training!
 
 ---
 
@@ -108,5 +109,3 @@ Or if your dog prefers pursuing a more artistic path, like Music or Acting:
 ![Mio Playing Ukulele](/assets/posts/2023_11_dog_training/mio_ukulele.jpg){:loading="lazy"}
 
 ![Mio Drama Actor](/assets/posts/2023_11_dog_training/mio_playing_dead.gif){:loading="lazy"}
-
-*No dogs were harmed in the making of these GIFs. The boxing GIF actually refers to the early stages of the "Who is your best friend" trick.

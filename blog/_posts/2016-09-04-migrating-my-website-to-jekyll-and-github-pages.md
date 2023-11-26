@@ -6,6 +6,7 @@ date: 2016-09-04
 cover: /assets/posts/jekyll_github.jpg
 description: How I migrated my website to Jekyll and Github Pages.
 tags: development update ruby jekyll github
+footnote: Thanks to Jekyll for the original logos, jekyllrb.com.
 ---
 
 Last year I thought I should have my own website, like many other developers, so I built it. I was starting with Python at the time and I didn’t like Wordpress, I still don’t, so I decided to use a Python CMS instead. I found a few options and decided to go with [Django Mezzanine](http://mezzanine.jupo.org){:target="_blank"} hosting it on my own server.
@@ -165,7 +166,3 @@ I will add a custom 404 page, improve the tags and add HTTPS support.
 In a week, my site using Jekyll and Github Pages was available and I am quite happy with the change so far. The hardest part was to export/import some of the content and had to do it manually sometimes.
 
 You can see the source code in [my Github repository](https://github.com/mariusavram91/mariusavram){:target="_blank"}.
-
----
-
-Thanks to Jekyll for the logos, [jekyll](https://jekyllrb.com/img/logo-2x.png){:target="_blank"} and [octojekyll](https://jekyllrb.com/img/octojekyll.png){:target="_blank"}, I have put them together using [Gimp](http://www.gimp.org){:target="_blank"} for the post’s cover.

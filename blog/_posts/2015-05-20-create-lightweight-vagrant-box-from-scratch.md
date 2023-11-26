@@ -5,6 +5,7 @@ permalink: /blog/:year/:month/:day/:title/
 date:   2015-05-20 08:00:00 -0700
 cover: /assets/posts/vagrant.jpg
 description: Learn how to build your development environment in Virtualbox using Vagrant.
+footnote: Thanks to vagrantup.com for the original logo.
 tags: vagrant development
 ---
 
@@ -258,10 +259,3 @@ Following these steps will help you build a new environment in a matter of minut
 Making use of provisioners, as I said before, it would be much better solution, given that it can automatically install the necessary software and keep it up to date easily, as well as having all this configuration under version control.
 
 If you want to know how to get a Digital Ocean droplet running in just a few minutes using Vagrant and Ansible you can find it at [Vagrant and Ansible at Digital Ocean by Edgar](http://www.edgarlatorre.com.br/2014/08/17/vagrant-ansible-and-digital-ocean){:target="_blank"}, thanks to whom I have found out about Vagrant.
-
-Thank you for reading!
-
----
-
-Thanks to [vagrantup.com](http://vagrantup.com){:target="_blank"} for the logo.
-

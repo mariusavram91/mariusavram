@@ -35,16 +35,12 @@ Once everything was back to normal with gyms allowing me to be spontaneous and a
 
 Not too long ago, I started going again. This time, I told myself it was okay to start all over; although it was not from scratch, I still knew the techniques and how/when to use them. I didn't put too much pressure on myself. I just went to enjoy myself and have fun. And things are so different now. I've learned to love this hobby again. It is okay to take a step back sometimes and give yourself some time.
 
-It helped me remember why I liked Bouldering in the first place: to enjoy the moment.
+It helped me remember why I liked Bouldering in the first place: to enjoy the moment. My favourite routes have some balance and crimps in them.
 
 I am now going once a week regularly, planning to increase it to two sessions per week soon, and I can already see progress without even trying much.
 
-And it feels great!
-
----
-
 It might not seem much, but the tiniest hint of progress helps tremendously with motivation.
 
-My favourite routes have some balance and crimps in them.
+And it feels great!
 
 ![Marius Bouldering One of the Last Sessions](/assets/posts/2023_11_joy_of_bouldering/bouldering.gif){:loading="lazy"}
