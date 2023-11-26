@@ -2,15 +2,12 @@
 
 - [ ] Accessibility
 - [ ] Optimise images and assets
-- [ ] Migrate blog post covers to doodles
+- [ ] Rename images to relevant names
 - [ ] Light/Dark mode switch
 - [ ] Style adjustments
-- [ ] Fix SEO
 
 
-- [ ] Edit Meetings post
-- [ ] Write post about aroundtheworldbook experiment
-- [ ] Write post about basics of dog training
 - [ ] Write post about how I structure my jekyll site
 - [ ] Write post about tips for baking
-- [ ] Write recipe for carrot cake
+- [ ] Write post about Figma prototyping
+- [ ] Write post about similarities between PMing/Coding and Dog Training

@@ -272,4 +272,6 @@ You can send me an [**email**](mailto:me@mariusavram.com){:target="_blank"}.
 
 You can download my [**résumé**](/assets/Marius_Avram_PM-Resume.pdf){:target="_blank"}.
 
+[**Let's work together!**](/lets_work_together/)
+
 {% include back_to_top.html %}

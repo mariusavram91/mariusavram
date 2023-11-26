@@ -230,6 +230,13 @@
         width: 200px;
       }
 
+      .portrait-lets-work {
+        @extend .portrait;
+        float: right;
+        padding-left: 50px;
+        padding-bottom: 50px;
+      }
+
       .project {
         width: 320px;
         height: fit-content;
