@@ -62,13 +62,6 @@
         display: flex;
       }
 
-      /* Responsive layout */
-      @media (max-width: 820px) {
-        .hero {
-          flex-direction: column;
-        }
-      }
-
       .hello {
         align-self: center;
       }
@@ -87,13 +80,6 @@
         color: #36014d;
         background-color: #ffffff;
         align-self: center;
-      }
-
-      /* Responsive layout */
-      @media (max-width: 420px) {
-        .content {
-          max-width: 350px;
-        }
       }
 
       .center {
@@ -118,33 +104,6 @@
         display: flex;
         justify-content: center;
         padding: 40px 10px;
-      }
-
-      /* Responsive layout */
-      @media (max-width: 820px) {
-        .intro {
-          flex-direction: column;
-        }
-
-        .description {
-          flex-direction: column-reverse;
-        }
-
-        .companies {
-          flex-direction: column;
-        }
-
-        .company {
-          padding-top: 10px;
-        }
-
-              .block:nth-child(odd) {
-        padding-right: 0;
-      }
-
-      .block:nth-child(even) {
-        padding-left: 0;
-      }
       }
 
       .contact {
@@ -202,13 +161,6 @@
         font-size: 15px;
       }
 
-      /* Responsive layout */
-      @media (max-width: 820px) {
-        .footer {
-          flex-direction: column;
-        }
-      }
-
       .footer p {
         margin-top: 8px;
         margin-bottom: 8px;
@@ -247,15 +199,6 @@
         z-index: 10000;
       }
 
-       /* Responsive layout */
-      @media (max-width: 820px) {
-        .doodle {
-          width: auto;
-          height: auto;
-          max-width: 360px;
-        }
-      }
-
       .polaroid {
         width: 300px;
         background: #f3f2f2;
@@ -264,13 +207,6 @@
         -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-      }
-
-      /* Responsive layout */
-      @media (max-width: 820px) {
-        .polaroid {
-          width: 200px;
-        }
       }
 
       img {
@@ -286,17 +222,6 @@
 
       .recipe-photo {
         max-width: 540px;
-      }
-
-      /* Responsive layout */
-      @media (max-width: 820px) {
-        .recipe-photos {
-          flex-direction: column;
-        }
-
-        .recipe-photo {
-          margin-top: 10px;
-        }
       }
 
       /* headings */
@@ -420,18 +345,6 @@
         text-align: right;
       }
 
-      /*@media (prefers-color-scheme: dark) {
-        .header {
-          background: #000;
-          color: #fff;
-        }
-
-        .doodle {
-          -webkit-filter: invert(1);
-          filter: invert(1);
-        }
-      }*/
-
       /* code */
       .highlighter-rouge {
         max-width: 960px;
@@ -443,24 +356,94 @@
         background-color: #e2cde7;
       }
 
-            /* Responsive layout */
-      @media (max-width: 820px) {
-      .highlighter-rouge {
-        max-width: 560px;
-      }
+      // **************************************************
 
-      .wrapper > div {
+      /* Responsive layout */
+      @media (max-width: 820px) {
+        .polaroid {
+          width: 200px;
+        }
+
+        .recipe-photos {
+          flex-direction: column;
+        }
+
+        .recipe-photo {
+          margin-top: 10px;
+        }
+
+        .highlighter-rouge {
+          max-width: 560px;
+        }
+
+        .wrapper > div {
           padding: 20px 5%;
         }
       
-      .post {
+        .post {
           padding: 20px 5%;
         }
-    }
+
+        .doodle {
+          width: auto;
+          height: auto;
+          max-width: 360px;
+        }
+
+        .footer {
+          flex-direction: column;
+        }
+
+        .hero {
+          flex-direction: column;
+        }
+
+        .intro {
+          flex-direction: column;
+        }
+
+        .description {
+          flex-direction: column-reverse;
+        }
+
+        .companies {
+          flex-direction: column;
+        }
+
+        .company {
+          padding-top: 10px;
+        }
+
+        .block:nth-child(odd) {
+          padding-right: 0;
+        }
+
+        .block:nth-child(even) {
+          padding-left: 0;
+        }
+      }
 
       /* Responsive layout */
       @media (max-width: 420px) {
-      .highlighter-rouge {
-        max-width: 360px;
+        .content {
+          max-width: 350px;
+        }
+
+        .highlighter-rouge {
+          max-width: 360px;
+        }
       }
-      }
+
+      // **********************************************
+
+      /*@media (prefers-color-scheme: dark) {
+        .header {
+          background: #000;
+          color: #fff;
+        }
+
+        .doodle {
+          -webkit-filter: invert(1);
+          filter: invert(1);
+        }
+      }*/

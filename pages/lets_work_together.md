@@ -5,7 +5,7 @@ description: Software Developer and Product Manager based in Berlin for hire. Pr
 permalink: /lets_work_together/
 ---
 
-# Software Development and Product Management Services!
+# Software Development & Product Management Services
 
 ![Marius Avram Profile Portrait](/assets/Marius_Avram_portrait.png){:class="portrait-lets-work"}{:loading="lazy"}
 
