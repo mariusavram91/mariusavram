@@ -19,6 +19,7 @@ Agile (Kanban and Scrum), ShapeUp, TDD, CI/CD.
 
 ## Companies I worked for (in reverse chronological order)
 
+{:.companies}
 ![Babbel Logo](/assets/babbel.png){:class="company"}
 ![DCMN Logo](/assets/dcmn.png){:class="company"}
 ![Kimera Logo](/assets/kimera.jpeg){:class="company"}
