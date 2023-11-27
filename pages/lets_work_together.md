@@ -11,13 +11,13 @@ permalink: /lets_work_together/
 
 Are you looking for a Software Developer or Product Manager (or both) with a proven track record of turning ideas into reality? Look no further!
 
-I am **Marius Avram**, a professional at the intersection of software development and product management based in Berlin, Germany.
+I am **Marius Avram, a professional at the intersection of software development and product management based in Berlin, Germany.**
 
 ## Software Development
 
 With a robust background in full-stack development, I bring proficiency in various programming languages and frameworks. From crafting efficient, scalable, and clean code to optimising user experiences, I achieve successful software solutions with my technical skills.
 
-With a strong foundation in web development, I specialise in Django, Rails, ReactJS, and VueJS.
+With a strong foundation in web development, I specialise in _Django, Rails, ReactJS, and VueJS._
 
 You can check my code on [**Github**](https://github.com/mariusavram91){:target="_blank"} and see what [**projects I've worked on here**](/projects/){:target="_blank"}.
 
@@ -25,7 +25,7 @@ You can check my code on [**Github**](https://github.com/mariusavram91){:target=
 
 Additionally, my skills extend to Product Management, ensuring your projects are not only technically robust but also strategically aligned with your business goals. As a strategic thinker and Product Manager, I drive product lifecycles from concept to market.
 
-My hands-on experience includes defining product roadmaps, conducting market research, prototyping, prioritisation, wireframing, and implementing agile methodologies to ensure rapid and effective product iterations.
+My hands-on experience includes _defining product roadmaps, conducting market research, prototyping, prioritisation, wireframing, and implementing agile methodologies to ensure rapid and effective product iterations_.
 
 ## Innovation and Problem Solving
 
@@ -67,4 +67,4 @@ Reach out to me at [**me@mariusavram.com**](mailto:me@mariusavram.com?subject=Jo
 
 You can download my [**résumé**]({{site.resume}}){:target="_blank"}.
 
-Let's create and succeed together!
+**Let's create and succeed together!**
