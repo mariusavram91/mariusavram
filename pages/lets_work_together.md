@@ -7,11 +7,11 @@ permalink: /lets_work_together/
 
 # Software Development & Product Management Services
 
-![Marius Avram Profile Portrait](/assets/Marius_Avram_portrait.png){:class="portrait-lets-work"}{:loading="lazy"}
-
 Are you looking for a Software Developer or Product Manager (or both) with a proven track record of turning ideas into reality? Look no further!
 
 I am **Marius Avram, a professional at the intersection of software development and product management based in Berlin, Germany.**
+
+![Marius Avram Profile Portrait](/assets/Marius_Avram_portrait.png){:class="portrait-lets-work"}{:loading="lazy"}
 
 ## Software Development
 
