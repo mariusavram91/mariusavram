@@ -19,11 +19,11 @@ Agile (Kanban and Scrum), ShapeUp, TDD, CI/CD.
 
 ## Companies I worked for (in reverse chronological order)
 
-![Babbel](/assets/babbel.png){:class="company"}
-![DCMN](/assets/dcmn.png){:class="company"}
-![Kimera](/assets/kimera.jpeg){:class="company"}
-![LearningData](/assets/learningdata.png){:class="company"}
-![ClassIS](/assets/classis.jpeg){:class="company"}
+![Babbel Logo](/assets/babbel.png){:class="company"}
+![DCMN Logo](/assets/dcmn.png){:class="company"}
+![Kimera Logo](/assets/kimera.jpeg){:class="company"}
+![LearningData Logo](/assets/learningdata.png){:class="company"}
+![ClassIS Logo](/assets/classis.jpeg){:class="company"}
 
 ---
 
@@ -31,7 +31,7 @@ Agile (Kanban and Scrum), ShapeUp, TDD, CI/CD.
 
 ### MakeYourMaps
 
-![MakeYourMaps](/assets/projects/makeyourmaps.png){:class="project"}{:loading="lazy"}
+![MakeYourMaps Persona for Dora the Explorer](/assets/projects/makeyourmaps.png){:class="project"}{:loading="lazy"}
 
 GoogleMaps-like product.
 
@@ -43,7 +43,7 @@ GoogleMaps-like product.
 
 ### Sync
 
-![Sync](/assets/projects/sync.png){:class="project"}{:loading="lazy"}
+![Sync First Slide from Team Alignment Presentation](/assets/projects/sync.png){:class="project"}{:loading="lazy"}
 
 Video Conferencing product.
 
@@ -59,7 +59,7 @@ Video Conferencing product.
 
 ### **[Babbel Travel](https://travel.babbel.com){:target="_blank"}** | 2019 - 2021
 
-![Babbel Travel](/assets/projects/babbel-travel.png){:class="project"}{:loading="lazy"}
+![Babbel Travel Website](/assets/projects/babbel-travel.png){:class="project"}{:loading="lazy"}
 
 Learning Languages with locals.
 
@@ -80,7 +80,7 @@ Babbel's Guide for learning Languages
 
 ### **[Babbel Live](https://live.babbel.com){:target="_blank"}** | 2021 - 2022
 
-![Babbel Live](/assets/projects/babbel-live.png){:class="project"}{:loading="lazy"}
+![Babbel Live Website](/assets/projects/babbel-live.png){:class="project"}{:loading="lazy"}
 
 * Used NodeJS and Typescript on the Backend of the Live platform, which had an Event Driven Architecture and used DynamoDB.
 
@@ -94,7 +94,7 @@ Babbel's Guide for learning Languages
 
 ### **[DCMN TV and Mobile Analytics Tool](https://dcanalytics.dcmn.com/){:target="_blank"}** | 2016 - 2017
 
-![DC Analytics](/assets/projects/dc-analytics.png){:class="project"}{:loading="lazy"}
+![DC Analytics Website](/assets/projects/dc-analytics.png){:class="project"}{:loading="lazy"}
 
 Offline (TV) and Online (Mobile) analytics service.
 
@@ -118,7 +118,7 @@ The Demand-Side Platform consisted of many Go microservices and a Rails backend 
 
 ### **[Python Jobs Ireland](http://pythonjobs.ie){:target="_blank"}** | 2015 - 2016 | [Github](https://github.com/kimeraapp/pythonjobs.ie){:target="_blank"}
 
-![pythonjobs.ie](/assets/projects/pythonjobs.png){:class="project"}{:loading="lazy"}
+![pythonjobs.ie Website](/assets/projects/pythonjobs.png){:class="project"}{:loading="lazy"}
 
 An Open Source jobs board for Python, the programmming language, exclusive to Ireland. It was built using Django and it is deployed to Heroku through Travis CI.
 
@@ -130,7 +130,7 @@ An Open Source jobs board for Python, the programmming language, exclusive to Ir
 
 ### **Classis** | 2013 - 2016 | [Github](https://github.com/LearningData/class){:target="_blank"}
 
-![classis](/assets/projects/classis.jpg){:class="project"}{:loading="lazy"}
+![classis platform website](/assets/projects/classis.jpg){:class="project"}{:loading="lazy"}
 
 A School Management Information System, a multi tenant web application, written in a custom PHP framework. Running on Apache, MySQL for database and Git for version control.
 
@@ -152,7 +152,7 @@ It is a complete student tracking, reporting, and information management. A diff
 
 ### **Classis Ansible**  | 2016 | [Github](https://github.com/LearningData/classis-ansible){:target="_blank"}
 
-![classisansible](/assets/projects/classis_ansible.jpg){:class="project"}{:loading="lazy"}
+![classisansible code](/assets/projects/classis_ansible.jpg){:class="project"}{:loading="lazy"}
 
 Ansible recipe written for automatisation of Classis.
 
@@ -160,7 +160,7 @@ Ansible recipe written for automatisation of Classis.
 
 ### **Classis API** | 2016
 
-![classisapi](/assets/projects/classis_api.jpg){:class="project"}{:loading="lazy"}
+![classisapi website](/assets/projects/classis_api.jpg){:class="project"}{:loading="lazy"}
 
 A REST API written using Flask Python framework and its web client written in Javascript/jQuery.
 
@@ -172,7 +172,7 @@ A REST API written using Flask Python framework and its web client written in Ja
 
 ### **[Schoolbag](https://schoolbag.ie){:target="_blank"}** | 2014 - 2016
 
-![schoolbag](/assets/projects/schoolbag.jpg){:class="project"}{:loading="lazy"}
+![schoolbag website](/assets/projects/schoolbag.jpg){:class="project"}{:loading="lazy"}
 
 An e-diary application for teachers, students and parents built using Phalcon PHP.
 
@@ -240,7 +240,7 @@ Personal website, mariusavram.com. Built in Jekyll and deployed to Github Pages.
 
 ### **[El Mundo en mi Cocina](https://elmundoenmicocina.es){:target="_blank"}**  | 2016 - 2019 | [Github](https://github.com/mariusavram91/elmundoenmicocina){:target="_blank"}
 
-![elmundoenmicocina.es](/assets/projects/elmundoenmicocina_web.jpg){:class="project"}{:loading="lazy"}
+![elmundoenmicocina.es website](/assets/projects/elmundoenmicocina_web.jpg){:class="project"}{:loading="lazy"}
 
 Mum's recipes website, elmundoenmicocina.es, for desserts around the world. Built in Jekyll and deployed to Github Pages.
 

@@ -7,7 +7,7 @@ permalink: /lets_work_together/
 
 # Software Development and Product Management Services!
 
-![Marius Avram Portrait](/assets/Marius_Avram_portrait.png){:class="portrait-lets-work"}{:loading="lazy"}
+![Marius Avram Profile Portrait](/assets/Marius_Avram_portrait.png){:class="portrait-lets-work"}{:loading="lazy"}
 
 Are you looking for a Software Developer or Product Manager (or both) with a proven track record of turning ideas into reality? Look no further!
 
