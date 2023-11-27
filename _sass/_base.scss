@@ -102,7 +102,7 @@
 
       .companies {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         padding: 40px 10px;
       }
 
@@ -202,6 +202,8 @@
         width: 320px;
         height: auto;
         float: right;
+        margin-left: 30px;
+        margin-bottom: 30px;
       }
 
       .doodle {
@@ -403,6 +405,7 @@
 
         .project {
           float: none;
+          margin: 0;
         }
 
         .footer {
