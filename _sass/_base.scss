@@ -166,6 +166,15 @@
         margin-bottom: 8px;
       }
 
+      .footer .footer-contact, .footer .copyright {
+        width: 310px;
+      }
+
+      .footer .footer-contact {
+        display: flex;
+        justify-content: flex-end;
+      }
+
       /* images */
       .logo {
         width: 90px;
@@ -387,11 +396,17 @@
         .doodle {
           width: auto;
           height: auto;
-          max-width: 360px;
+          max-width: 450px;
+          align-self: flex-end;
         }
 
         .footer {
           flex-direction: column;
+          text-align: center;
+        }
+
+        .footer .footer-contact {
+          justify-content: center;
         }
 
         .hero {
@@ -408,10 +423,12 @@
 
         .companies {
           flex-direction: column;
+          text-align: center;
         }
 
         .company {
           padding-top: 10px;
+          margin-right: 0;
         }
 
         .block:nth-child(odd) {
@@ -436,6 +453,18 @@
         .portrait-lets-work {
           float: none;
           padding-bottom: 0;
+        }
+
+        .doodle {
+          width: 320px;
+          align-self: center;
+        }
+
+        .navigation-links {
+          display: flex;
+          justify-content: flex-end;
+          flex-wrap: wrap;
+          padding: 5px;
         }
       }
 

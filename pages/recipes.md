@@ -12,9 +12,9 @@ permalink: /recipes/
   <li>
     <strong>
       <a class="post-link" href="{{ recipe.url | prepend: site.baseurl }}"
-        >{{ recipe.title }} - {{ recipe.description }}</a
-      >
+        >{{ recipe.title }}</a>
     </strong>
+    <p class="post-meta">{{ recipe.description }}</p>
   </li>
   {% endfor %}
 </ul>

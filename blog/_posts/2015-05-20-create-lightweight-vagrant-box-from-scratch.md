@@ -238,7 +238,11 @@ $ vagrant init test
 $ vagrant up
 ```
 
-You can now copy the projects (clone or checkout your repository) inside this directory and you should be able to see it in the browser at `localhost:8080/your_project_directory_name`.
+You can now copy the projects (clone or checkout your repository) inside this directory and you should be able to see it in the browser at:
+
+```
+localhost:8080/your_project_directory_name
+```
 
 ### Useful commands
 
