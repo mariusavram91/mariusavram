@@ -153,8 +153,6 @@ It is a complete student tracking, reporting, and information management. A diff
 
 ### **Classis Ansible**  | 2016 | [Github](https://github.com/LearningData/classis-ansible){:target="_blank"}
 
-![classisansible code](/assets/projects/classis_ansible.jpg){:class="project"}{:loading="lazy"}
-
 Ansible recipe written for automatisation of Classis.
 
 * Implemented to improve the efficiency and speed of the development process.
@@ -249,7 +247,7 @@ Mum's recipes website, elmundoenmicocina.es, for desserts around the world. Buil
 
 Follow her [instagram](https://instagram.com/elmundoenmicocina){:target="_blank"} to see her latest recipes.
 
-### **[Magneto Producciones](https://www.magnetoproducciones.com){:target="_blank"}**  | 2012
+### **Magneto Producciones**  | 2012
 
 Corporate website for Magneto Producciones. Participated in a team of three writing frontend code.
 

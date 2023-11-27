@@ -200,7 +200,8 @@
 
       .project {
         width: 320px;
-        height: fit-content;
+        height: auto;
+        float: right;
       }
 
       .doodle {
@@ -398,6 +399,10 @@
           height: auto;
           max-width: 450px;
           align-self: flex-end;
+        }
+
+        .project {
+          float: none;
         }
 
         .footer {
