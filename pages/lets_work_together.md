@@ -50,12 +50,24 @@ I understand the importance of collaboration and effective communication. Throug
 - Web Application Development
 - Content Management Systems (CMS)
 - API Development and Integration
-- Maintenance and Support
 - Market Analysis
 - User Testing and Feedback Analysis
 - Feature Prioritisation
 - Roadmap Planning
 - Wireframing and Prototyping in Figma
+- PoC (Proof of Concept) and MVP (Minumum Valuable Product)
+- Transparent Communication
+- Documentation
+- Maintenance and Support
+- Flexibility
+
+## How Will We Work Together?
+
+- I establish a seamless collaboration with clients by initiating a thorough discovery phase through virtual meetings and project management tools.
+- We will progress together through ideation, design, development, and deployment stages with scheduled video calls, collaborative design tools, and regular updates.
+- I will ensure post-launch success with ongoing support channels, feedback sessions, and documentation, maintaining a flexible and transparent communication approach throughout the entire process.
+
+Communication is key and most important part of the process. [**Check out here what our collaboration would look like.**](/collaboration/){:target="_blank"}
 
 ## Let's Connect
 
@@ -63,7 +75,9 @@ I am currently open to exciting opportunities and various work arrangements (inc
 
 Let's connect if you are looking for a Software Developer or Product Manager (or both) who can drive your projects to success!
 
-Reach out to me at [**me@mariusavram.com**](mailto:me@mariusavram.com?subject=Job Opportunity with [Your Name or Your Company's Name]) to discuss how we can collaborate.
+You can book a quick introduction meeting with me. [**Check out my availability on Calendly.**](https://calendly.com/mariusavram/20min){:target="_blank"}
+
+Or you can reach out to me at [**me@mariusavram.com**](mailto:me@mariusavram.com?subject=Job Opportunity with [Your Name or Your Company's Name]) to discuss how we can collaborate.
 
 You can download my [**résumé**]({{site.resume}}){:target="_blank"}.
 
