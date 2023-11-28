@@ -7,11 +7,15 @@ permalink: /projects/
 
 # Projects
 
-Here you can find some projects I have worked on. You can download my [**résumé**]({{site.resume}}){:target="_blank"} or see my code on [**Github**](https://github.com/mariusavram91){:target="_blank"}.
+Here you can find some projects I have worked on and companies I have worked at . You can download my [**résumé**]({{site.resume}}){:target="_blank"} or see my code on [**Github**](https://github.com/mariusavram91){:target="_blank"}.
 
 ## Technologies I have used
 
 Python (Django, Flask), PHP (Zend), Ruby (Ruby on Rails), MySQL & PostgreSQL, HTML/CSS/Javascript, ReactJS, Apache, Ansible, Heroku, Azure, Git.
+
+## Tools I have used
+
+Figma, Miro, Trello, GoogleForms, Github/Gitlab, Jira, Basecamp.
 
 ## Methodologies I have used
 
@@ -25,6 +29,9 @@ Agile (Kanban and Scrum), ShapeUp, TDD, CI/CD.
 ![Kimera Logo](/assets/kimera.jpeg){:class="company"}
 ![LearningData Logo](/assets/learningdata.png){:class="company"}
 ![ClassIS Logo](/assets/classis.jpeg){:class="company"}
+
+{:.flexi-items}
+[**Let's work together!**](/lets_work_together/){: .button}
 
 ---
 
@@ -271,6 +278,7 @@ You can send me an [**email**](mailto:me@mariusavram.com){:target="_blank"}.
 
 You can download my [**résumé**](/assets/Marius_Avram_PM-Resume.pdf){:target="_blank"}.
 
-[**Let's work together!**](/lets_work_together/)
+{:.flexi-items}
+[**Let's work together!**](/lets_work_together/){: .button}
 
 {% include back_to_top.html %}

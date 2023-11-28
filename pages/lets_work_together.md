@@ -50,6 +50,7 @@ I understand the importance of collaboration and effective communication. Throug
 - Web Application Development
 - Content Management Systems (CMS)
 - API Development and Integration
+- Deployment
 - Market Analysis
 - User Testing and Feedback Analysis
 - Feature Prioritisation
@@ -60,14 +61,18 @@ I understand the importance of collaboration and effective communication. Throug
 - Documentation
 - Maintenance and Support
 - Flexibility
+- And more...
 
 ## How Will We Work Together?
 
-- I establish a seamless collaboration with clients by initiating a thorough discovery phase through virtual meetings and project management tools.
+- I establish a seamless collaboration with you by initiating a thorough discovery phase through virtual meetings and project management tools.
 - We will progress together through ideation, design, development, and deployment stages with scheduled video calls, collaborative design tools, and regular updates.
 - I will ensure post-launch success with ongoing support channels, feedback sessions, and documentation, maintaining a flexible and transparent communication approach throughout the entire process.
 
-Communication is key and most important part of the process. [**Check out here what our collaboration would look like.**](/collaboration/){:target="_blank"}
+Communication is key and most important part of the process.
+
+{: .flexi-items}
+[**Check out here what our collaboration would look like.**](/collaboration/){:target="_blank"}{: .button}
 
 ## Let's Connect
 
@@ -75,10 +80,13 @@ I am currently open to exciting opportunities and various work arrangements (inc
 
 Let's connect if you are looking for a Software Developer or Product Manager (or both) who can drive your projects to success!
 
-You can book a quick introduction meeting with me. [**Check out my availability on Calendly.**](https://calendly.com/mariusavram/20min){:target="_blank"}
+**Calling all non-profit organisations and individuals working for a cause!** I'm open to collaborating on a volunteer basis, leveraging free tools and technology to support your initiatives. Let's connect and discuss how I can contribute to amplify the impact of your valuable work.
 
-Or you can reach out to me at [**me@mariusavram.com**](mailto:me@mariusavram.com?subject=Job Opportunity with [Your Name or Your Company's Name]) to discuss how we can collaborate.
+You can reach out to me at via email to discuss how we can collaborate. Or you can book a quick introduction meeting with me on GoogleMeet or Zoom.
 
-You can download my [**résumé**]({{site.resume}}){:target="_blank"}.
+{:.flexi-items}
+[Email me](mailto:me@mariusavram.com?subject=Job Opportunity with [Your Name or Your Company's Name]){: .button}
+[Book a call](https://calendly.com/mariusavram/20min){:target="_blank"}{: .button}
 
+{: .center}
 **Let's create and succeed together!**

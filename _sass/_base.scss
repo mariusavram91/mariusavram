@@ -150,6 +150,18 @@
         height: auto;
       }
 
+      .flexi-items {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 0;
+        margin: 0;
+
+        .button {
+          margin: 0;
+        }
+      }
+
       /* footer */
       .footer {
         display: flex;
@@ -320,6 +332,7 @@
 
       a.button {
         text-decoration-line: none;
+        text-align: center;
         color: #6a257c;
         margin-top: 60px;
         padding: 10px 12px;
@@ -328,7 +341,7 @@
         border-width: 2px;
         border-color: #6a257c;
         display: block;
-        width: fit-content;
+        width: auto;
         font-weight: 600;
         font-size: 1.1rem;
       }
@@ -337,6 +350,10 @@
         text-decoration-line: none;
         color: #fff;
         background-color: #6a257c;
+      }
+
+      .hero .button {
+        width: fit-content;
       }
 
       .navigation-links a{
@@ -473,6 +490,12 @@
           justify-content: flex-end;
           flex-wrap: wrap;
           padding: 5px;
+        }
+
+        .flexi-items {
+          flex-direction: column;
+          align-items: center;
+          gap: 50px;
         }
       }
 

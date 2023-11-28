@@ -7,7 +7,7 @@ permalink: /collaboration/
 
 # Collaboration Process
 
-Bring your ideas to life.
+Bring your ideas to life!
 
 Whether you're in need of a **proof of concept, MVP development, idea validation, or product management and coding expertise**, I'm here to deliver. Expect regular updates, meticulous documentation, swift communication, and a commitment to your project's success. Let's turn your vision into a tangible digital **success** story together.
 
@@ -170,4 +170,5 @@ Join a collaborative journey where your insights matter. Emphasizing an open fee
 - _**Transparency Assurance:**_
 Choose transparency as the cornerstone of our collaboration. I commit to openly sharing project status, challenges, and potential risks. Celebrate successes together, tackle setbacks proactively, and rest assured that your trust is paramount in our partnership. You can always check my availability on [Calendly](https://calendly.com/mariusavram/20min){:target="_blank"}.
 
-[**Let's connect and work together!**](/lets_work_together/#lets-connect)
+{: .flexi-items}
+[**Let's connect and work together!**](/lets_work_together/#lets-connect){: .button}
