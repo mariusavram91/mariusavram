@@ -13,7 +13,7 @@ This article is directed towards people with dogs who are very food or toy-drive
 
 _**Disclaimers:**_
 - _Every dog is very different; what works with some might not work with others. Some dogs might not be food or toy-driven, which makes training much harder._
-- _If your dog has significant issues, please consider seeing a specialised professional dog. Do not attempt fixing them yourself, as the problems could worsen._
+- _If your dog has significant issues, please consider seeing a specialised professional dog trainer or behaviourist. Do not attempt fixing them yourself, as the problems could worsen._
 - _I am not a dog trainer, and all my knowledge comes from collecting information from different sources; I like it a lot and find it very rewarding._
 - _Patience and control of emotions are a must. Sometimes, it can be frustrating to both of you when something is not working; the best is to take a break._
 
