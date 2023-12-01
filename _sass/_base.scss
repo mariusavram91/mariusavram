@@ -252,6 +252,10 @@
         max-width: 540px;
       }
 
+      .testimonial {
+        text-align: right;
+      }
+
       /* headings */
       h1 {
         font-size: 2rem;
@@ -387,6 +391,17 @@
         white-space: pre;
         overflow-x: scroll;
         background-color: #e2cde7;
+      }
+
+
+      /* decorations */
+      .highlighted {
+        background: linear-gradient(
+          to bottom,
+          transparent 15%,
+          #ffd633 60%,
+        );
+        display: inline;
       }
 
       // **************************************************
