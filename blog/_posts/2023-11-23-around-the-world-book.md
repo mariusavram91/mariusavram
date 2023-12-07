@@ -26,7 +26,6 @@ Here is an incomplete list of books I left in public places over the years for p
 | ------------------------------------------------------------ | ---------- | --------------------------- |
 | [Good Omens](https://www.goodreads.com/book/show/12067.Good_Omens){:target="_blank"} | 11/10/2016 | Barajas Airport, Madrid     |
 | [Remote](https://www.goodreads.com/book/show/17316682-remote){:target="_blank"} | 11/10/2016 | Barajas Airport, Madrid     |
-| [Elon Musk](https://www.goodreads.com/book/show/25541028-elon-musk){:target="_blank"} | 07/11/2016 | Dublin Airport, Dublin      |
 | [The Time Machine](https://www.goodreads.com/book/show/2493.The_Time_Machine){:target="_blank"} | 27/11/2016 | Berlin Hauptbahnhof, Berlin |
 | [Of Mice and Men](https://www.goodreads.com/book/show/890.Of_Mice_and_Men){:target="_blank"} | 31/10/2018 | Schönefeld Airport, Berlin  |
 | [Around the World in 80 Days](https://www.goodreads.com/book/show/54479.Around_the_World_in_Eighty_Days){:target="_blank"} | 05/05/2019 | Shanghai, China *by post |
