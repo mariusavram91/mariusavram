@@ -11,10 +11,6 @@ github_username     : mariusavram91
 linkedin_username   : mariusavram91
 email               : me@mariusavram.com
 
-collections         :
-  recipes           :
-    output          : true
-
 defaults            :
   -
     scope           :
