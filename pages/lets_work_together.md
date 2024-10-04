@@ -5,13 +5,15 @@ description: Product-oriented Software Developer based in Berlin for hire. Prove
 permalink: /lets_work_together/
 ---
 
-# Software Development & Product Management Services
+# Are you looking for a Product-oriented Fullstack Software Developer with a proven track record of turning ideas into reality?
 
-Are you looking for a Product-oriented Software Developer with a proven track record of turning ideas into reality? Look no further!
-
-I am **Marius Avram, a professional at the intersection of software development and product management based in Berlin, Germany, working within the EU area**. Whether you're in need of a **proof of concept, MVP development, idea validation, or product management and coding expertise**, I'm here to deliver. I can help you navigate the complexities of technological decisions that can often feel overwhelming.Expect regular updates, meticulous documentation, swift communication, and a commitment to your project's success. Let's turn your vision into a tangible digital **success** story together.
+Look no further!
 
 ![Marius Avram Profile Portrait](/assets/Marius_Avram_portrait.png){:class="portrait-lets-work"}{:loading="lazy"}
+
+I am **Marius Avram, a professional at the intersection of software development and product management** based in Berlin, Germany, working within the **EU** area. Whether you're in need of a _proof of concept, MVP development, idea validation, or product management and coding expertise_, I'm here to help, **there are no stupid questions**.
+
+I can help you navigate the complexities of technological decisions that can often feel overwhelming. Expect regular updates, meticulous documentation, swift communication, and a commitment to your project's success. Let's turn your vision into a tangible digital **success story** together.
 
 ## Software Development
 
@@ -47,24 +49,24 @@ I understand the importance of collaboration and effective communication. Throug
 
 | What I offer | What I don't offer | 
 | :------------------------ | :-------------------- |  
-| - Custom Web Development | - UI/UX Design | 
-| - E-commerce Solutions | - Copywriting | 
-| - Web Application Development | - In depth SEO | 
-| - Content Management Systems (CMS) | - In depth DevOPS | 
-| - API Development and Integration | - 24/7 Support | 
-| - Deployment | - Hosting | 
-| - Market Analysis | - Domain Management | 
-| - User Testing and Feedback Analysis | - On-site or Hybrid | 
-| - Feature Prioritisation |  | 
-| - Roadmap Planning |  | 
-| - Wireframing and Prototyping in Figma |  | 
-| - PoC (Proof of Concept) and MVP (Minumum Valuable Product) |  | 
-| - Accessibility Standards |  | 
-| - Transparent Communication |  | 
-| - Documentation |  | 
-| - Maintenance and Support |  | 
-| - Flexibility |  |  | 
-| - And more... |  |  | 
+| &#9745; Custom Web Development | &#9746; UI/UX Design | 
+| &#9745; E-commerce Solutions | &#9746; Copywriting | 
+| &#9745; Web Application Development | &#9746; In depth SEO | 
+| &#9745; Content Management Systems (CMS) | &#9746; In depth DevOPS | 
+| &#9745; API Development and Integration | &#9746; 24/7 Support | 
+| &#9745; Deployment | &#9746; Hosting | 
+| &#9745; Market Analysis | &#9746; Domain Management | 
+| &#9745; User Testing and Feedback Analysis | &#9746; On-site or Hybrid | 
+| &#9745; Feature Prioritisation |  | 
+| &#9745; Roadmap Planning |  | 
+| &#9745; Wireframing and Prototyping in Figma |  | 
+| &#9745; PoC (Proof of Concept) and MVP (Minumum Valuable Product) |  | 
+| &#9745; Accessibility Standards |  | 
+| &#9745; Transparent Communication |  | 
+| &#9745; Documentation |  | 
+| &#9745; Maintenance and Support |  | 
+| &#9745; Flexibility |  |  | 
+| &#9745; And more... |  |  | 
 
 ## How Will We Work Together?
 
@@ -82,7 +84,7 @@ Communication and transparency are key and most important parts of the process!
 
 ## Let's Connect
 
-I am currently open to exciting opportunities and various work arrangements (including contract roles, freelancing, and consulting opportunities, remote) where I can contribute my skills and passion for making ideas real.
+I am currently open to exciting opportunities and various work arrangements, including: **contract roles, freelancing, and consulting opportunities, in a remote environment**. Where I can contribute my skills and passion for making ideas real.
 
 Let's connect if you are looking for a Product-oriented Software Developer who can drive your projects to success!
 
