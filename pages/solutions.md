@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Solutions
-description: Are you a small business owner, fitness enthusiast, or author looking for a standout online presence? Look no further! As your dedicated Freelance Product Manager and Software Developer, I bring personalised solutions to you.
+description: Are you a small business owner, fitness enthusiast, or author looking for a standout online presence? Look no further! As your dedicated Freelance Product-oriented Fullstack Software Developer, I bring personalised solutions to you.
 permalink: /solutions/
 ---
 

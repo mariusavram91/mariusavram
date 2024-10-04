@@ -9,15 +9,15 @@ permalink: /lets_work_together/
 
 Are you looking for a Product-oriented Software Developer with a proven track record of turning ideas into reality? Look no further!
 
-I am **Marius Avram, a professional at the intersection of software development and product management based in Berlin, Germany, working within the EU area.**
+I am **Marius Avram, a professional at the intersection of software development and product management based in Berlin, Germany, working within the EU area**. Whether you're in need of a **proof of concept, MVP development, idea validation, or product management and coding expertise**, I'm here to deliver. I can help you navigate the complexities of technological decisions that can often feel overwhelming.Expect regular updates, meticulous documentation, swift communication, and a commitment to your project's success. Let's turn your vision into a tangible digital **success** story together.
 
 ![Marius Avram Profile Portrait](/assets/Marius_Avram_portrait.png){:class="portrait-lets-work"}{:loading="lazy"}
 
 ## Software Development
 
-With a robust background in full-stack development, I bring proficiency in various programming languages and frameworks. From crafting efficient, scalable, and clean code to optimising user experiences, I achieve successful software solutions with my technical skills.
+With a robust background in full-stack development, I bring proficiency in various programming languages, frameworks, technologies, and tools. From crafting efficient, scalable, and clean code to optimising user experiences, I achieve successful software solutions with my technical skills.
 
-With a strong foundation in web development, I specialise in _Django, Rails, ReactJS, and VueJS._
+With a strong foundation in web development, with over ten years of experience, I specialise in _Django, Rails, ReactJS, and VueJS._
 
 ## Product Management
 
@@ -72,7 +72,7 @@ I understand the importance of collaboration and effective communication. Throug
 - We will progress together through ideation, design, development, and deployment stages with scheduled video calls, collaborative design tools, and regular updates.
 - I will ensure post-launch success with ongoing support channels, feedback sessions, and documentation, maintaining a flexible and transparent communication approach throughout the entire process.
 
-Communication is key and most important part of the process!
+Communication and transparency are key and most important parts of the process!
 
 {: .flexi-items}
 [**Check out here what our collaboration would look like.**](/collaboration/){: .button}
@@ -82,7 +82,7 @@ Communication is key and most important part of the process!
 
 ## Let's Connect
 
-I am currently open to exciting opportunities and various work arrangements (including permanent positions, contract roles, freelancing, and consulting opportunities, remote or hybrid) where I can contribute my skills and passion for making ideas real.
+I am currently open to exciting opportunities and various work arrangements (including contract roles, freelancing, and consulting opportunities, remote) where I can contribute my skills and passion for making ideas real.
 
 Let's connect if you are looking for a Product-oriented Software Developer who can drive your projects to success!
 
