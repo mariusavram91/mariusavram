@@ -1,7 +1,7 @@
 # Site settings
-title               : Marius Avram - Product Software Developer
+title               : Marius Avram - Freelance Product-Oriented Fullstack Developer | Web & App Development Expert
 description         : > 
-                      Product Software Developer and tech enthusiast based in Berlin with a decade of experience.
+                      Freelance Fullstack Software Developer and Product Manager based in Berlin. Expert in Python, JavaScript, FastAPI, and Vue.js for web and app development.
 url                 : "https://mariusavram.com"
 name                : Marius Avram
 
@@ -31,3 +31,4 @@ defaults            :
 
 robots_txt          : >-
   User-agent: *
+  Allow: /

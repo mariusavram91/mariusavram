@@ -1,8 +1,15 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:image" content="{{ site.baseurl }}/assets/Marius_Avram_portrait.png">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:type" content="website">
+
   <title>
     {% if page.title %} {{ page.title }} | {% endif %} {{ site.title }}
   </title>
@@ -10,6 +17,27 @@
   <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
   <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
 
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   {% seo title=false %}
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Marius Avram",
+      "url": "https://mariusavram.com",
+      "jobTitle": "Freelance Fullstack Software Developer",
+      "sameAs": [
+        "https://www.linkedin.com/in/mariusavram91",
+        "https://github.com/mariusavram91"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Berlin",
+        "addressCountry": "Germany"
+      }
+    }
+  </script>
 </head>
