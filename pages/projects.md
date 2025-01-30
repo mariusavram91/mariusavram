@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projects
-description: Projects, scripts, experience, and stuff in general I worked on. Software Development, Product Management, Volunteering, Experiments.
+description: Explore my portfolio showcasing a range of projects, scripts, and experiences in software development, product management, volunteering, and innovative experiments. Discover the companies I've collaborated with, the impactful solutions I've built, and the diverse skills I bring to each project. Ready to bring your ideas to life? Contact me for freelance software development and product management services tailored to your needs.
 permalink: /projects/
 ---
 

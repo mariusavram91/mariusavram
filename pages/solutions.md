@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Solutions
-description: Are you a small business owner, fitness enthusiast, or author looking for a standout online presence? Look no further! As your dedicated Freelance Product-oriented Fullstack Software Developer, I bring personalised solutions to you.
+description: Looking to elevate your online presence? Whether you're a small business owner, fitness enthusiast, or author, I provide tailored solutions to help you stand out. As a Freelance Fullstack Software Developer with a product-oriented approach, I specialize in creating custom websites and web applications designed to meet your unique needs. Let’s bring your vision to life with efficient, scalable, and user-focused solutions.
 permalink: /solutions/
 ---
 

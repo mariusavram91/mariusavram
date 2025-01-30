@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Collaboration Process
-description: Software Developer and Product Manager based in Berlin for hire. Proven track record in code efficiency, product strategy, and collaborative project success. Let's talk!
+description: Experienced Software Developer and Product Manager based in Berlin, offering tailored solutions for software development and product strategy. Specializing in adaptable collaboration processes, timely project updates, thorough documentation, and seamless communication. Ensuring transparency, efficiency, and a constructive feedback culture, I help bring your ideas to life with a focus on high-quality results and aligned project goals.
 permalink: /collaboration/
 ---
 

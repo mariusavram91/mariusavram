@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Let's work together
-description: Product-oriented Software Developer based in Berlin for hire. Proven track record in code efficiency, product strategy, and collaborative project success. Let's talk!
+description: Experienced Product-Oriented Software Developer based in Berlin, offering freelance services for websites and web applications. Proven expertise in code efficiency, product strategy, and collaborative project success. Specializing in proof of concept, MVP development, idea validation, and comprehensive product management and coding solutions. Let's collaborate to bring your digital projects to life.
 permalink: /lets_work_together/
 ---
 
