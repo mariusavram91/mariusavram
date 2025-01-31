@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+  <meta property="og:image" content="/assets/Marius_Avram_portrait.png">
+
+  <title>
+     Creating a lightweight custom Vagrant box from scratch |  Marius Avram - Freelance Product-Oriented Fullstack Developer | Web & App Development Expert
+  </title>
+
+  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" async/>
+
+  <link rel="stylesheet" href="/css/main.css" media="screen">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Creating a lightweight custom Vagrant box from scratch" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Learn how to build your development environment in Virtualbox using Vagrant." />
+<meta property="og:description" content="Learn how to build your development environment in Virtualbox using Vagrant." />
+<link rel="canonical" href="https://mariusavram.com/blog/2015/05/20/create-lightweight-vagrant-box-from-scratch/" />
+<meta property="og:url" content="https://mariusavram.com/blog/2015/05/20/create-lightweight-vagrant-box-from-scratch/" />
+<meta property="og:site_name" content="Marius Avram - Freelance Product-Oriented Fullstack Developer Web &amp; App Development Expert" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-05-20T15:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Creating a lightweight custom Vagrant box from scratch" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2015-05-20T15:00:00+00:00","datePublished":"2015-05-20T15:00:00+00:00","description":"Learn how to build your development environment in Virtualbox using Vagrant.","headline":"Creating a lightweight custom Vagrant box from scratch","mainEntityOfPage":{"@type":"WebPage","@id":"https://mariusavram.com/blog/2015/05/20/create-lightweight-vagrant-box-from-scratch/"},"url":"https://mariusavram.com/blog/2015/05/20/create-lightweight-vagrant-box-from-scratch/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+
+  <body>
+    <div class="wrapper">
+      <div class="header">
+  <div class="navigation">
+    <a class="site-title" href="/">
+      <img
+        class="logo"
+        src="/assets/logo.png"
+        alt="Marius Avram Website Brand Logo"
+      />
+    </a>
+  </div>
+  
+</div>
+
+
+      <div class="content"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Creating a lightweight custom Vagrant box from scratch</h1>
+    <img class="cover" src="/assets/posts/vagrant.jpg" />
+  </header>
+
+  <div class="post-content" itemprop="articleBody"><p>Do you want to know how easily and fast can you have your development environment running with Vagrant? Then keep reading.</p>
+
+<blockquote>
+  <p>Vagrant provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology and controlled by a single consistent workflow to help maximize the productivity and flexibility of you and your team.
+<a href="http://docs.vagrantup.com/v2/why-vagrant/index.html" target="_blank">Vagrant documentation</a>.</p>
+</blockquote>
+
+<h2 id="why-use-vagrant">Why use Vagrant?</h2>
+
+<p>It’s very easy to replicate, maintain and update your development environment. If you are a developer or a designer, what you really want is to get your job done, Vagrant automates the work of having to set environments up. You can just checkout your code and start working within seconds.</p>
+
+<p>Imagine a large team working on a single project, where everybody has different preferences on the systems they use, they shouldn’t be forced to use the same Operating System for the sake of having the same environment as the production server. With Vagrant they could have, in a very short time, an identical environment to production without sacrificing happiness and you can also forget about “It works for me” moments.</p>
+
+<p>You can combine it with provisioners like Chef, Puppet or Ansible to make it even more powerful or you can just install the software manually or through scripting if you are more experienced. Forget about using WAMP or MAMP and avoid future headaches.</p>
+
+<h2 id="why-not-use-vagrant">Why not use Vagrant?</h2>
+
+<p>I don’t, particularly, think I found any disadvantages to using it.</p>
+
+<p>It might be difficult to set up and export a package box and it requires some basic knowledge of the system and stack you are going to use. It could take longer to create the initial box, but you can solve that by either using an already customised box or configuring yours with a tool like <a href="https://puphpet.com">PuPHPet</a>, where you can export a config file and execute one command.</p>
+
+<h2 id="what-do-you-need">What do you need?</h2>
+
+<p>You will need either <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">Virtualbox</a> or <a href="https://my.vmware.com/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation/11_0" target="_blank">VMWare</a> to create and manage virtual machines, which will then be handled by Vagrant.</p>
+
+<p>Obviously, you will need Vagrant, which you can download here depending on your system: <a href="https://www.vagrantup.com/downloads.html" target="_blank">Vagrant Downloads</a>.</p>
+
+<p>Once both are installed you can start building your machine or download your customised box.</p>
+
+<p>You might need to enable Hardware Virtualisation in the BIOS.</p>
+
+<p>Let’s get started!</p>
+
+<h2 id="how-to-create-a-vagrant-box-with-lamp-stack-and-ubuntu">How to create a Vagrant box with LAMP stack and Ubuntu?</h2>
+
+<h3 id="first-steps-using-a-fresh-virtual-machine">First steps using a fresh virtual machine</h3>
+
+<p>You can skip this part and <a href="#base">go to “First steps using a base box”</a> if you prefer to download a box, otherwise, download the latest Ubuntu Server version <a href="http://www.ubuntu.com/download/server" target="_blank">here</a>. <a href="http://aruizca.com/steps-to-create-a-vagrant-base-box-with-ubuntu-14-04-desktop-gui-and-virtualbox" target="_blank">[1]</a></p>
+
+<p>If you chose to install Ubuntu from the ISO, you will have to create a virtual machine and boot with the image attached. First of all, you will have to configure the machine.</p>
+
+<p>The name in my case will be trusty64, type Linux and version Ubuntu 64.</p>
+
+<p><img src="/assets/posts/creating_vm_for_vagrant_box.jpg" alt="Create virtual machine" loading="lazy" /></p>
+
+<p>We can leave the memory to the default value: 512MB.</p>
+
+<p><img src="/assets/posts/memory_vm_for_vagrant_box.jpg" alt="RAM virtual machine" loading="lazy" /></p>
+
+<p>Create a disk and choose Dynamically allocated option with a minimum of 20GB.</p>
+
+<p>You will also have to add a Network adapter from the machine’s configuration and this must be NAT.</p>
+
+<p>You can now proceed to install the OS following the steps. Choose ‘vagrant’ for user and ‘vagrant’ for password.</p>
+
+<p>Change the password for root to ‘vagrant’:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo passwd root
+</code></pre></div></div>
+
+<p>add vagrant user to sudoers:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo visudo /etc/sudoers.d/vagrant
+</code></pre></div></div>
+
+<p>and set vagrant’s ‘NOPASSWD’ to ‘ALL’ adding at the end of the file the next line:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vagrant ALL=(ALL) NOPASSWD:ALL
+</code></pre></div></div>
+
+<p>Then execute the following commands to update and restart the machine.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt-get update -y
+$ sudo apt-get upgrade -y
+$ sudo shutdown -r now
+</code></pre></div></div>
+
+<p>When you are logged in again to the vm you will have to copy the public key from <a href="https://github.com/mitchellh/vagrant/tree/master/keys" target="_blank">Insecure Key Par</a> to <code class="language-plaintext highlighter-rouge">~/.ssh/authorized_keys</code> or check it out in the terminal.</p>
+
+<p>Create, if it doesn’t exist, the .ssh directory and <code class="language-plaintext highlighter-rouge">.ssh/authorized_keys</code>. <code class="language-plaintext highlighter-rouge">~/.ssh</code> must have 700 permissions and authorized_keys 600.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ mkdir /home/vagrant/.ssh
+$ chmod 700 /home/vagrant/.ssh
+$ wget --no-check-certificate https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub -O /home/vagrant/.ssh/authorized_keys
+$ chmod 600 /home/vagrat/.ssh/authorized_keys
+</code></pre></div></div>
+
+<p>We can now install open-ssh and the guest tools.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt-get install -y openssh-server
+</code></pre></div></div>
+
+<p>Check for the next lines inside the file /etc/ssh/sshd_config and restart ssh.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PubKeyAuthentication yes
+AuthorizedKeysFile %h/.ssh/authorized_keys
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo service ssh restart
+</code></pre></div></div>
+
+<p>To install the Guest Additions run:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt-get install dkms
+$ sudo /etc/init.d/vboxadd setup
+$ sudo apt-get install -y build-essential linux-headers-server
+$ sudo mount /dev/cdrom /media/cdrom
+$ sudo /media/cdrom/VBoxLinuxAdditions.run
+$ sudo umount /media/cdrom
+</code></pre></div></div>
+
+<h3 id="first-steps-using-a-base-box"><a href="" name="base"></a>First steps using a base box</h3>
+
+<p>You can also find boxes at <a href="http://www.vagrantbox.es" target="_blank">vagrantbox.es</a> or <a href="https://atlas.hashicorp.com/boxes/search?utm_source=vagrantcloud.com&amp;vagrantcloud=1" target="_blank">vagrantcloud</a>.</p>
+
+<p>I have chosen <a href="https://vagrantcloud.com/ubuntu/boxes/trusty64" target="_blank">vagrantcloud’s trusty64</a>. Now open a terminal in the host and go to the directory where you have it. Don’t worry about the name, you can change it later when you export your own box.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ vagrant box add ubuntu/trusty64 --provider virtualbox
+$ vagrant init ubuntu/trusty64
+$ vagrant up
+$ vagrant ssh
+</code></pre></div></div>
+
+<h3 id="installing-software">Installing software</h3>
+
+<p>We can now start installing the software we need for our development environment. In my case I will install Apache, MySQL, PHP and PHPMyAdmin. Set up the necessary users and passwords and test everything is working.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt-get clean -y
+$ sudo apt-get update -y
+$ sudo apt-get upgrade -y
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt-get install apache2 apache2-utils
+$ sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
+$ sudo mysql_install_db
+$ sudo /usr/bin/mysql_secure_installation
+$ sudo apt-get install phpmyadmin
+$ sudo apt-get install php5 php5-mysql php-pear php5-gd php5-mcrypt php5-curl php5-memcache
+$ sudo service apache2 restart
+$ sudo nano /var/www/html/test.php
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;?php
+    phpinfo();
+?&gt;
+</code></pre></div></div>
+
+<p>Open <a href="http://localhost/test.php" target="_blank">localhost/test.php</a> in your browser and check for the PHPInfo.</p>
+
+<h3 id="reducing-the-size-and-final-adjustments">Reducing the size and final adjustments</h3>
+
+<p>We are going to have the code outside the box within a shared folder between the host and the guest, so Git or SVN wouldn’t be needed inside the machine. For the shared folder you can choose /var/www/html by default or change it to /vagrant or any path/name of your own. Make sure you have the same path in the Apache’s config file.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo vim /etc/apache2/sites-enabled/000-default.conf
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;VirtualHost *:80&gt;
+    ...
+    DocumentRoot /var/www/html
+    ...
+&lt;/VirtualHost&gt;
+</code></pre></div></div>
+
+<p>You can reduce the size <a href="http://vmassuchetto.github.io/2013/08/14/reducing-a-vagrant-box-size" target="_blank">[2]</a> <a href="https://github.com/mitchellh/vagrant/issues/343" target="_blank">[3]</a> or shrink your machine considerably just by using the following commands.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo rm -rf /usr/share/doc
+$ sudo apt-get clean -y
+$ sudo apt-get autoclean -y
+$ sudo dd if=/dev/zero of=/EMPTY bs=1M 
+$ sudo rm -f /EMPTY
+$ sudo unset HISTFILE
+$ sudo rm -f /root/.bash_history
+$ sudo rm -f /home/vagrant/.bash_history
+$ sudo shutdown -h now
+</code></pre></div></div>
+
+<h3 id="vagrant-file">Vagrant file</h3>
+
+<p>It is possible to include a configuration file with your box, I will include a forwarded port for port 80 and a shared folder, this must be the one specified before in the Apache configuration. Here, you can also include the default name you want to give to you box. Create a file in your host with the required configuration.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  # -*- mode: ruby -*-
+  # vi: set ft=ruby : 
+  Vagrant.configure(2) do |config| 
+       config.vm.box = "vagrantlamp"
+       config.vm.network "forwarded_port", guest: 80, host: 8080 
+       config.vm.hostname = "vagrantlamp"
+       config.vm.synced_folder ".", "/var/www/html" 
+  end
+</code></pre></div></div>
+
+<h3 id="package-your-box">Package your box</h3>
+
+<p>Your virtual machine should now be ready for exporting, you can do that using vagrant package command. Just specify the name of the .box file and include the Vagrantfile edited before.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ vagrant package --output vagrantlamp-0.1.box --Vagrantfile Vagrantfile
+</code></pre></div></div>
+
+<h3 id="testing-it">Testing it</h3>
+
+<p>Create your vagrant projects directory anywhere in your system and change your path in the console to that folder. Once there, add your box (add the path to your file created before), initiate it and get it running.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ vagrant box add test vagrantlamp-0.1.box
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ vagrant init test
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ vagrant up
+</code></pre></div></div>
+
+<p>You can now copy the projects (clone or checkout your repository) inside this directory and you should be able to see it in the browser at:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>localhost:8080/your_project_directory_name
+</code></pre></div></div>
+
+<h3 id="useful-commands">Useful commands</h3>
+
+<p>Just a few commands you may find useful, see the documentation for more details.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ vagrant up
+$ vagrant reload
+$ vagrant halt
+$ vagrant ssh
+$ vagrant destroy
+</code></pre></div></div>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Following these steps will help you build a new environment in a matter of minutes instead of hours and it is so powerful and practical you will not want to do it other way any more.</p>
+
+<p>Making use of provisioners, as I said before, it would be much better solution, given that it can automatically install the necessary software and keep it up to date easily, as well as having all this configuration under version control.</p>
+
+<p>If you want to know how to get a Digital Ocean droplet running in just a few minutes using Vagrant and Ansible you can find it at <a href="http://www.edgarlatorre.com.br/2014/08/17/vagrant-ansible-and-digital-ocean" target="_blank">Vagrant and Ansible at Digital Ocean by Edgar</a>, thanks to whom I have found out about Vagrant.</p>
+</div>
+
+  <hr />
+
+  
+  <p class="post-meta">Thanks to vagrantup.com for the original logo.</p>
+  
+
+  <p class="post-meta">
+    Posted on
+    <time
+      datetime="2015-05-20T15:00:00+00:00"
+      itemprop="datePublished"
+      >May 20, 2015</time
+    >
+  </p>
+
+  <div class="post-nav">
+    <div class="post-related-link previous">
+      
+    </div>
+
+    <div class="post-related-link next">
+      
+      <a href="/blog/2016/09/04/migrating-my-website-to-jekyll-and-github-pages/">
+        <strong>Next article:</strong> Migrating my website to Jekyll and Github Pages
+      </a>
+      
+    </div>
+  </div>
+
+  <p markdown="1" class="back-to-top">
+  <a href="#"> ⏏ <strong>Back to the top of the page</strong> </a>
+</p>
+
+</article>
+</div>
+
+      <div class="footer">
+  <div class="copyright">
+    <p>Marius Avram © 2025. Have a great day!</p>
+    <p class="powered-by">
+      Powered by
+      <a href="https://github.com/mariusavram91/mariusavram" target="_blank"
+        >Jekyll & Github Pages</a
+      >.
+    </p>
+    <p class="terms">
+      <a href="/terms/" target="_blank">Terms & Conditions</a>
+      <a href="/terms/#privacy-policy" target="_blank">Privacy Policy</a>
+    </p>
+  </div>
+  <a class="site-title" href="/">
+    <img
+      class="logo"
+      src="/assets/logo.png"
+      alt="Marius Avram Website Brand Logo"
+      loading="lazy"
+    />
+  </a>
+  <div class="footer-contact">
+    <a title="Email me" target="_blank" href="mailto:me@mariusavram.com">
+      <span class="icon icon-mail"></span
+    ></a>
+    <a
+      title="Connect with me on LinkedIn"
+      target="_blank"
+      href="https://ie.linkedin.com/in/mariusavram91"
+      ><span class="icon icon-linkedin"></span
+    ></a>
+    <a
+      title="Check out my Github projects"
+      target="_blank"
+      href="https://github.com/mariusavram91"
+      ><span class="icon icon-github"></span
+    ></a>
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>

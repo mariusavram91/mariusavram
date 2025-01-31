@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+  <meta property="og:image" content="/assets/Marius_Avram_portrait.png">
+
+  <title>
+     Migrating my website to Jekyll and Github Pages |  Marius Avram - Freelance Product-Oriented Fullstack Developer | Web & App Development Expert
+  </title>
+
+  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" async/>
+
+  <link rel="stylesheet" href="/css/main.css" media="screen">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Migrating my website to Jekyll and Github Pages" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="How I migrated my website to Jekyll and Github Pages." />
+<meta property="og:description" content="How I migrated my website to Jekyll and Github Pages." />
+<link rel="canonical" href="https://mariusavram.com/blog/2016/09/04/migrating-my-website-to-jekyll-and-github-pages/" />
+<meta property="og:url" content="https://mariusavram.com/blog/2016/09/04/migrating-my-website-to-jekyll-and-github-pages/" />
+<meta property="og:site_name" content="Marius Avram - Freelance Product-Oriented Fullstack Developer Web &amp; App Development Expert" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-09-04T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Migrating my website to Jekyll and Github Pages" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2016-09-04T00:00:00+00:00","datePublished":"2016-09-04T00:00:00+00:00","description":"How I migrated my website to Jekyll and Github Pages.","headline":"Migrating my website to Jekyll and Github Pages","mainEntityOfPage":{"@type":"WebPage","@id":"https://mariusavram.com/blog/2016/09/04/migrating-my-website-to-jekyll-and-github-pages/"},"url":"https://mariusavram.com/blog/2016/09/04/migrating-my-website-to-jekyll-and-github-pages/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+
+  <body>
+    <div class="wrapper">
+      <div class="header">
+  <div class="navigation">
+    <a class="site-title" href="/">
+      <img
+        class="logo"
+        src="/assets/logo.png"
+        alt="Marius Avram Website Brand Logo"
+      />
+    </a>
+  </div>
+  
+</div>
+
+
+      <div class="content"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Migrating my website to Jekyll and Github Pages</h1>
+    <img class="cover" src="/assets/posts/jekyll_github.jpg" />
+  </header>
+
+  <div class="post-content" itemprop="articleBody"><p>Last year I thought I should have my own website, like many other developers, so I built it. I was starting with Python at the time and I didn’t like Wordpress, I still don’t, so I decided to use a Python CMS instead. I found a few options and decided to go with <a href="http://mezzanine.jupo.org" target="_blank">Django Mezzanine</a> hosting it on my own server.</p>
+
+<p>When I decided to change the website I did look for other Static Site Generators, especially written in Python, like <a href="http://getpelican.com" target="_blank">Pelican</a>. But ultimately, I decided to go with <a href="https://jekyllrb.com" target="_blank">Jekyll</a>, I have used it a few times before and it’s easily deployable to <a href="https://pages.github.com" target="_blank">Github Pages</a>.</p>
+
+<p>I know there are many other posts on how to migrate from [insert CMS here] to Jekyll and Github Pages, but I wanted to write about my own experience.</p>
+
+<h2 id="jekyll">Jekyll</h2>
+
+<blockquote>
+  <p>Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favourite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free. <a href="https://jekyllrb.com/docs/home" target="_blank">What is Jekyll?</a></p>
+</blockquote>
+
+<p>It is really easy to install and use. I assume you already have Ruby installed.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~ <span class="nv">$ </span>gem <span class="nb">install </span>jekyll bundler
+~ <span class="nv">$ </span>jekyll new website
+~ <span class="nv">$ </span><span class="nb">cd </span>website
+~/website <span class="nv">$ </span>bundle <span class="nb">install</span>
+~/website <span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
+
+<p>Then go to <a href="http://localhost:4000">http://localhost:4000</a>.</p>
+
+<p>While developing I use: <code class="language-plaintext highlighter-rouge">$ jekyll serve --host 0.0.0.0 --force_polling</code>.</p>
+
+<h2 id="github-pages">Github Pages</h2>
+
+<p>Github Pages is an easy and free way to host your projects. Forget about hosting your own server. The speed serving your site is also really good.</p>
+
+<p>I had a couple of DDOS attacks directed to my server and many others issue hosting it on my own.</p>
+
+<h2 id="improvements">Improvements</h2>
+
+<p>I changed a bit the design, improving the readability and making it nicer to see.</p>
+
+<p>I have created a logo myself and added a banner with an image of my physical bookshelf, which gave me an idea for a future side project.</p>
+
+<p>I changed some colours and fonts, and added a Projects page.</p>
+
+<p>I can write my future posts in Vim and it’s easily deployed by just committing and pushing to Github. I now have absolutely everything under version control, my gallery files were not under version control before.</p>
+
+<h2 id="process">Process</h2>
+
+<p>I exported everything I had from my old server and CMS. I changed everything to Markdown and changed the settings in _config.yml. Then I made a few changes to the style and the templates.</p>
+
+<h3 id="rakefile">Rakefile</h3>
+
+<p>I wrote a Rakefile with a task to create a draft post easily.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">require</span> <span class="s1">'time'</span>
+
+<span class="n">desc</span> <span class="s1">'Create a new draft post'</span>
+<span class="n">task</span> <span class="ss">:post</span> <span class="k">do</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="no">ENV</span><span class="p">[</span><span class="s1">'title'</span><span class="p">]</span>	
+    <span class="n">cover</span> <span class="o">=</span> <span class="no">ENV</span><span class="p">[</span><span class="s1">'cover'</span><span class="p">]</span>
+    <span class="n">description</span> <span class="o">=</span> <span class="no">ENV</span><span class="p">[</span><span class="s1">'description'</span><span class="p">]</span>
+    <span class="n">slug</span> <span class="o">=</span> <span class="s2">"</span><span class="si">#{</span><span class="no">Date</span><span class="p">.</span><span class="nf">today</span><span class="si">}</span><span class="s2">-</span><span class="si">#{</span><span class="n">title</span><span class="p">.</span><span class="nf">downcase</span><span class="p">.</span><span class="nf">gsub</span><span class="p">(</span><span class="sr">/[^\w]+/</span><span class="p">,</span> <span class="s1">'-'</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span>
+
+    <span class="n">file</span> <span class="o">=</span> <span class="no">File</span><span class="p">.</span><span class="nf">join</span><span class="p">(</span>
+        <span class="no">File</span><span class="p">.</span><span class="nf">dirname</span><span class="p">(</span><span class="kp">__FILE__</span><span class="p">),</span>
+        <span class="s1">'_posts'</span><span class="p">,</span>
+        <span class="n">slug</span> <span class="o">+</span> <span class="s1">'.markdown'</span>
+    <span class="p">)</span>
+
+    <span class="no">File</span><span class="p">.</span><span class="nf">open</span><span class="p">(</span><span class="n">file</span><span class="p">,</span> <span class="s2">"w"</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span>
+        <span class="n">f</span> <span class="o">&lt;&lt;</span> <span class="o">&lt;&lt;-</span><span class="no">EOS</span><span class="p">.</span><span class="nf">gsub</span><span class="p">(</span><span class="sr">/^     /</span><span class="p">,</span> <span class="s1">''</span><span class="p">)</span><span class="sh">
+---
+layout: post
+title: "</span><span class="si">#{</span><span class="n">title</span><span class="si">}</span><span class="sh">"
+date: </span><span class="si">#{</span><span class="no">Date</span><span class="p">.</span><span class="nf">today</span><span class="si">}</span><span class="sh">
+cover: /assets/posts/</span><span class="si">#{</span><span class="n">cover</span><span class="si">}</span><span class="sh">.jpg
+description: "</span><span class="si">#{</span><span class="n">description</span><span class="si">}</span><span class="sh">"
+categories:
+published: false
+---
+
+</span><span class="no">        EOS</span>
+    <span class="k">end</span>
+
+    <span class="nb">system</span> <span class="p">(</span><span class="s2">"vim </span><span class="si">#{</span><span class="n">file</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="k">end</span>
+</code></pre></div></div>
+<p>Now, I can type</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ rake post title="Post title" cover="image_name" description="Summary of my new post."
+</code></pre></div></div>
+
+<p>and a file is automatically generated and opened in Vim for me to edit as a draft, <code class="language-plaintext highlighter-rouge">published: false</code>.</p>
+
+<h3 id="domain">Domain</h3>
+
+<p>I created a file called CNAME in the repository’s root path containing my domain, Github Pages will detect this as a custom domain.</p>
+
+<p>I would like to serve my site over HTTPS, unfortunately, it is not straight forward and <a href="https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains" target="_blank">a Cloudflare account is needed</a>.</p>
+
+<p>I edited the zone file for the domain in my Gandi account adding the following entries:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@ 	A 	192.30.252.153
+@ 	A 	192.30.252.154
+www 	CNAME 	mariusavram91.github.io.
+</code></pre></div></div>
+
+<h3 id="disqus">Disqus</h3>
+
+<p>I integrated <a href="https://disqus.com/admin/universalcode" target="_blank">Disqus</a> for post comments, adding disqus_name to my _config.yml and creating a disqus.html file in the _includes directory.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"disqus_thread"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;script&gt;</span>
+    <span class="kd">var</span> <span class="nx">disqus_config</span> <span class="o">=</span> <span class="nf">function </span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">page</span><span class="p">.</span><span class="nx">url</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">{{ site.url }}{{ page.url }}</span><span class="dl">'</span><span class="p">;</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">page</span><span class="p">.</span><span class="nx">identifier</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">{{ page.id }}</span><span class="dl">'</span><span class="p">;</span>
+    <span class="p">};</span>
+    <span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>  <span class="c1">// DON'T EDIT BELOW THIS LINE</span>
+        <span class="kd">var</span> <span class="nx">d</span> <span class="o">=</span> <span class="nb">document</span><span class="p">,</span> <span class="nx">s</span> <span class="o">=</span> <span class="nx">d</span><span class="p">.</span><span class="nf">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">script</span><span class="dl">'</span><span class="p">);</span>
+        
+        <span class="nx">s</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">//{{ site.disqus_name }}.disqus.com/embed.js</span><span class="dl">'</span><span class="p">;</span>
+        
+        <span class="nx">s</span><span class="p">.</span><span class="nf">setAttribute</span><span class="p">(</span><span class="dl">'</span><span class="s1">data-timestamp</span><span class="dl">'</span><span class="p">,</span> <span class="o">+</span><span class="k">new</span> <span class="nc">Date</span><span class="p">());</span>
+        <span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">head</span> <span class="o">||</span> <span class="nx">d</span><span class="p">.</span><span class="nx">body</span><span class="p">).</span><span class="nf">appendChild</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
+    <span class="p">})();</span>
+<span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;noscript&gt;</span>Please enable JavaScript to view the <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://disqus.com/?ref_noscript"</span> <span class="na">rel=</span><span class="s">"nofollow"</span><span class="nt">&gt;</span>comments powered by Disqus.<span class="nt">&lt;/a&gt;&lt;/noscript&gt;</span>
+</code></pre></div></div>
+
+<h3 id="google-analytics">Google Analytics</h3>
+
+<p>I added the Google Analytics script to my footer.html file.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script&gt;</span>
+  <span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="nx">s</span><span class="p">,</span><span class="nx">o</span><span class="p">,</span><span class="nx">g</span><span class="p">,</span><span class="nx">r</span><span class="p">,</span><span class="nx">a</span><span class="p">,</span><span class="nx">m</span><span class="p">){</span><span class="nx">i</span><span class="p">[</span><span class="dl">'</span><span class="s1">GoogleAnalyticsObject</span><span class="dl">'</span><span class="p">]</span><span class="o">=</span><span class="nx">r</span><span class="p">;</span><span class="nx">i</span><span class="p">[</span><span class="nx">r</span><span class="p">]</span><span class="o">=</span><span class="nx">i</span><span class="p">[</span><span class="nx">r</span><span class="p">]</span><span class="o">||</span><span class="kd">function</span><span class="p">(){</span>
+      <span class="p">(</span><span class="nx">i</span><span class="p">[</span><span class="nx">r</span><span class="p">].</span><span class="nx">q</span><span class="o">=</span><span class="nx">i</span><span class="p">[</span><span class="nx">r</span><span class="p">].</span><span class="nx">q</span><span class="o">||</span><span class="p">[]).</span><span class="nf">push</span><span class="p">(</span><span class="nx">arguments</span><span class="p">)},</span><span class="nx">i</span><span class="p">[</span><span class="nx">r</span><span class="p">].</span><span class="nx">l</span><span class="o">=</span><span class="mi">1</span><span class="o">*</span><span class="k">new</span>
+        <span class="nc">Date</span><span class="p">();</span><span class="nx">a</span><span class="o">=</span><span class="nx">s</span><span class="p">.</span><span class="nf">createElement</span><span class="p">(</span><span class="nx">o</span><span class="p">),</span>
+        <span class="nx">m</span><span class="o">=</span><span class="nx">s</span><span class="p">.</span><span class="nf">getElementsByTagName</span><span class="p">(</span><span class="nx">o</span><span class="p">)[</span><span class="mi">0</span><span class="p">];</span><span class="nx">a</span><span class="p">.</span><span class="k">async</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span><span class="nx">a</span><span class="p">.</span><span class="nx">src</span><span class="o">=</span><span class="nx">g</span><span class="p">;</span><span class="nx">m</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nf">insertBefore</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span><span class="nx">m</span><span class="p">)</span>
+  <span class="p">})(</span><span class="nb">window</span><span class="p">,</span><span class="nb">document</span><span class="p">,</span><span class="dl">'</span><span class="s1">script</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">https://www.google-analytics.com/analytics.js</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">ga</span><span class="dl">'</span><span class="p">);</span>
+
+  <span class="nf">ga</span><span class="p">(</span><span class="dl">'</span><span class="s1">create</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">CHANGE-THIS</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">auto</span><span class="dl">'</span><span class="p">);</span>
+  <span class="nf">ga</span><span class="p">(</span><span class="dl">'</span><span class="s1">send</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">pageview</span><span class="dl">'</span><span class="p">);</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<h3 id="to-do">To do</h3>
+
+<p>Improve the gallery, which, at the moment, is just a list with the images. It takes a lot to load, even though I lowered the quality of the photos. I would also like to have a preview when clicking on each image.</p>
+
+<p>I will add a custom 404 page, improve the tags and add HTTPS support.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>In a week, my site using Jekyll and Github Pages was available and I am quite happy with the change so far. The hardest part was to export/import some of the content and had to do it manually sometimes.</p>
+
+<p>You can see the source code in <a href="https://github.com/mariusavram91/mariusavram" target="_blank">my Github repository</a>.</p>
+</div>
+
+  <hr />
+
+  
+  <p class="post-meta">Thanks to Jekyll for the original logos, jekyllrb.com.</p>
+  
+
+  <p class="post-meta">
+    Posted on
+    <time
+      datetime="2016-09-04T00:00:00+00:00"
+      itemprop="datePublished"
+      >Sep 4, 2016</time
+    >
+  </p>
+
+  <div class="post-nav">
+    <div class="post-related-link previous">
+      
+      <a href="/blog/2015/05/20/create-lightweight-vagrant-box-from-scratch/">
+        <strong>Previous article:</strong> Creating a lightweight custom Vagrant box from scratch
+      </a>
+      
+    </div>
+
+    <div class="post-related-link next">
+      
+      <a href="/blog/2017/11/27/getting-started-with-a-django-project/">
+        <strong>Next article:</strong> Getting started with a Django project
+      </a>
+      
+    </div>
+  </div>
+
+  <p markdown="1" class="back-to-top">
+  <a href="#"> ⏏ <strong>Back to the top of the page</strong> </a>
+</p>
+
+</article>
+</div>
+
+      <div class="footer">
+  <div class="copyright">
+    <p>Marius Avram © 2025. Have a great day!</p>
+    <p class="powered-by">
+      Powered by
+      <a href="https://github.com/mariusavram91/mariusavram" target="_blank"
+        >Jekyll & Github Pages</a
+      >.
+    </p>
+    <p class="terms">
+      <a href="/terms/" target="_blank">Terms & Conditions</a>
+      <a href="/terms/#privacy-policy" target="_blank">Privacy Policy</a>
+    </p>
+  </div>
+  <a class="site-title" href="/">
+    <img
+      class="logo"
+      src="/assets/logo.png"
+      alt="Marius Avram Website Brand Logo"
+      loading="lazy"
+    />
+  </a>
+  <div class="footer-contact">
+    <a title="Email me" target="_blank" href="mailto:me@mariusavram.com">
+      <span class="icon icon-mail"></span
+    ></a>
+    <a
+      title="Connect with me on LinkedIn"
+      target="_blank"
+      href="https://ie.linkedin.com/in/mariusavram91"
+      ><span class="icon icon-linkedin"></span
+    ></a>
+    <a
+      title="Check out my Github projects"
+      target="_blank"
+      href="https://github.com/mariusavram91"
+      ><span class="icon icon-github"></span
+    ></a>
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>
