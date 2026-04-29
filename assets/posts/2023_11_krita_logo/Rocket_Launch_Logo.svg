@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Krita: https://krita.org -->
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:krita="http://krita.org/namespaces/svg/krita"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    width="240pt"
+    height="240pt"
+    viewBox="0 0 240 240">
+<defs/>
+<path id="shape0" transform="translate(105.6, 52.8)" fill="#6ec8fa" fill-rule="evenodd" d="M0 19.2L9.6 0L19.2 19.2Z" sodipodi:nodetypes="cccc"/><path id="shape1" transform="translate(100.8, 76.8)" fill="#6ec8fa" fill-rule="evenodd" d="M4.8 0L4.8 0L0 24L0 52.8L4.8 72L24 72L28.8 52.8L28.8 24L24 0Z" sodipodi:nodetypes="cccccccccc"/><path id="shape2" transform="translate(76.8, 96)" fill="#6ec8fa" fill-rule="evenodd" d="M19.2 0L0 43.2L19.2 43.2Z" sodipodi:nodetypes="cccc"/><path id="shape3" transform="translate(134.4, 96)" fill="#6ec8fa" fill-rule="evenodd" d="M0 0L0 43.2L19.2 43.2Z" sodipodi:nodetypes="cccc"/><path id="shape4" transform="translate(105.6, 153.6)" fill="#6ec8fa" fill-rule="evenodd" d="M0 0L19.2 0L9.6 24Z" sodipodi:nodetypes="cccc"/><text id="shape5" krita:useRichText="true" text-rendering="auto" krita:textVersion="3" transform="translate(61.479375, 197.945625)" fill="#003052" stroke-opacity="0" stroke="#000000" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel" letter-spacing="0" style="text-align: start;text-align-last: auto;font-family: Ubuntu;font-size: 16;font-weight: 700;"><tspan x="0">RocketLaunch</tspan></text>
+</svg>
