@@ -18,4 +18,4 @@ To create a recipe
 rake recipe title="" description=""
 ```
 
-Copyright (c)2023 Marius Avram
+Copyright (c)2026 Marius Avram
